@@ -147,8 +147,7 @@ SB:
 
 ~  Red Stompy
  -3 Duress, -2 Dark Petition, -2 Preordain
-  +2 Abrupt Decay, +2 Hurkyl's Recall, +2  Chain of Vapor, +1 Empty the Warrens (I really do not like Empty against this deck but I think it is a necessary evil. Just accept that you are going to lose to sweepers or Rabblemaster and bite the bullet. If you see sweepers past Confluence and you don’t don’t see Leyline of the Void feel free to add back Dark Petition or add the third Decay, Decay also gains value if you see Scab-Clan Beserker) 
-
+  +2 Abrupt Decay, +2 Hurkyl’s Recall, +2  Chain of Vapor, +1 Empty the Warrens (I really do not like Empty against this deck but I think it is a necessary evil. Just accept that you are going to lose to sweepers or Rabblemaster and bite the bullet. If you see sweepers past Confluence and you don’t don’t see Leyline of the Void feel free to add back Dark Petition or add the third Decay, Decay also gains value if you see Scab-Clan Beserker) 
 
 ~ Grixis Control:
 -1 Swamp, -1 Rain of Filth, -1 Dark Petition, -1 Lotus Petal

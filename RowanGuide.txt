@@ -69,8 +69,8 @@ SB:
 
 
 ~ Burn
-  -3 Duress, -1 Island, -1 Ad Nauseam
-  +1 Empty the Warrens,  +2 Chain of Vapor, +2 Abrupt Decay
+  -3 Duress, -1 Island, -1 Ad Nauseam, 1 Rain of Filth
+  +1 Empty the Warrens,  +2 Chain of Vapor, +2 Abrupt Decay, +1 Tendrils of Agony
 
 
 ~  UB Reanimator
@@ -147,7 +147,7 @@ SB:
 
 ~  Red Stompy
  -3 Duress, -2 Dark Petition, -2 Preordain
-  +2 Abrupt Decay, +2 Echoing Truth, +2  Chain of Vapor, +1 Empty the Warrens (I really do not like Empty against this deck but I think it is a necessary evil. Just accept that you are going to lose to sweepers or Rabblemaster and bite the bullet. If you see sweepers past Confluence and you don’t don’t see Leyline of the Void feel free to add back Dark Petition or add the third Decay, Decay also gains value if you see Scab-Clan Beserker) 
+  +2 Abrupt Decay, +2 Hurkyl's Recall, +2  Chain of Vapor, +1 Empty the Warrens (I really do not like Empty against this deck but I think it is a necessary evil. Just accept that you are going to lose to sweepers or Rabblemaster and bite the bullet. If you see sweepers past Confluence and you don’t don’t see Leyline of the Void feel free to add back Dark Petition or add the third Decay, Decay also gains value if you see Scab-Clan Beserker) 
 
 
 ~ Grixis Control:
@@ -170,7 +170,7 @@ SB:
 
 
 ~ Steel Stompy/Affinity:
-  -3 Duress, -2 Dark Petition, -1 Preordain
+  -3 Duress, -1 Dark Petition, -2 Preordain
  +2 Abrupt Decay, +2 Hurkyl’s Recall, +2 Chain of Vapor
 
 
@@ -210,5 +210,5 @@ SB:
 
 
 ~Painter
-+2 Abrupt Decay, +2 Chain of Vapor, +1 Hurkyl's
--2 Preordain, -2 Dark Petition, -1 Cabal Ritual
++2 Abrupt Decay, +2 Chain of Vapor, +2 Hurkyl's
+-2 Preordain, -2 Dark Petition, -1 Cabal Ritual, -1 Rain of Filth

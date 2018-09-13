@@ -1,0 +1,214 @@
+﻿Note: The last 2 pages of this google doc are formatted so that you can print it double sided as a sideboard guide
+Decklist: 
+15 Lands:
+4 Polluted Delta 
+2 Misty Rainforest
+2 Bloodstained Mire
+2 Underground Sea
+1 Volcanic Island
+1 Bayou
+1 Tropical Island
+1 Island
+1 Swamp
+
+
+45 Spells:
+4 Brainstorm
+4 Dark Ritual
+4 Thoughtseize
+3 Duress
+4 Ponder
+4 Preordain
+4 Cabal Ritual
+4 Infernal Tutor
+2 Dark Petition
+1 Past in Flames
+1 Tendrils of Agony
+1 Ad Nauseam
+4 Lion’s Eye Diamond 
+4 Lotus Petal
+1 Rain of Filth
+SB:
+2 Abrupt Decay
+1 Tendrils of Agony
+1 Xantid Swarm
+2 Hurkyl’s Recall
+2 Chain of Vapor
+2 Flusterstorm
+2 Tormod’s Crypt
+2 Massacre
+1 Empty the Warrens
+~ Miracles
+-1 Dark Petition, -1 Cabal Ritual, -1 Rain of Filth
++1 Tendrils of Agony +2 Abrupt Decay  (If they Surgical and see no Xantid/Empty G2 you are safe to bring them in. Cuts can be a Bloodstained Mire, more mana, or Dark Petitions. Depending on if you think they have RiP/Relic)
+
+
+~  Eldrazi:
+  -3 Duress, -2 Dark Petition, -2 Preordain
+ +2 Abrupt Decay, +2 Hurkyl’s Recall, +2 Chain of Vapor  +1 Empty the Warrens
+
+
+~ Storm
+  -1 Rain of Filth,1 Swamp. -2 Preordain (ANT)
++2 Flusterstorm, +2 Tormod’s Crypt (ANT)
+
+
+~ Lands:
+  -4 Thoughtseize, -2 Dark Petition
+ +2 Abrupt Decay, +2 Hurkyl’s Recall, +2 Chain of Vapor
+
+
+~ BUG Midrange
+ -1 Rain of Filth, -1 Preordain, -1 Dark Petition
++2 Abrupt Decay, +1 Empty the Warrens (I am medium on Empty. But without DRS they can’t really race it and it is an option to beat Leovold. 
+
+
+~ UR Delver
+  -1 Preordain, -1 Ad Nauseam, -1 Dark Petition, -1 Island
+ +2 Abrupt Decay, +1 Empty the Warrens +1 Tendrils
+
+
+~ Burn
+  -3 Duress, -1 Island, -1 Ad Nauseam
+  +1 Empty the Warrens,  +2 Chain of Vapor, +2 Abrupt Decay
+
+
+~  UB Reanimator
+  -1 Swamp, -1 Rain of Filth, -1 Cabal Ritual, -1 Dark Petition, -1 Preordain
+ + 1 Xantid Swarm, +2 Flusterstorm, +2 Tormod’s Crypt (if they aggressively fetch Iona over Griselbrand go ahead and bring in Chain of Vapor for the other Dark Petition and a Preordain. They won’t do this if they are good though.)
+
+
+
+
+~  Infect:
+  -1 Island, -1 Rain of Filth, -2 Dark Petition, -1 Preordain
+  +1 Xantid Swarm, +2 Flusterstorm, +2 Abrupt Decay
+
+
+~  Death and Taxes
+  -3 Duress, -2 Preordain, -2 Dark Petition
+ +2 Chain of Vapor, +2 Abrupt Decay, +2 Massacre  +1 Empty the Warrens
+
+
+~Maverick
+-3 Duress, -2 Dark Petition, -2 Preordain
++2 Abrupt Decay, +2 Chain of Vapor, +2 Massacre, +1 Empty the Warrens
+
+
+~ 4c Loam
+  -3 Duress,  -2 Preordain, -2 Dark Petition
+  +2 Decay, +2 Chain of Vapor, +2 Hurkyl’s Recall, +1 Empty the Warrens
+
+
+~ Omnishow/Sneak & Show
+  -1 Swamp, -1 Rain of Filth, -2 Preordain, -1 Dark Petition
+  +1 Xantid Swarm, +2 Flusterstorm, +2 Chain of Vapor
+
+
+~ Elves:
+  -1 Rain of Filth, -1 Swamp, -2 Dark Petition
+  + 2 Chain of Vapor, +2 Flusterstorm (Adjust if they don’t have Leyline of the Void/Natural Order)
+
+
+~ Manaless Dredge:
+ -1 Swamp, -1 Rain of Filth, -1 Preordain
++1 Xantid, +2 Tormod’s Crypt (Same as always, shave Dark Petition if you see Leyline of the Void)
+
+
+~ LED Dredge
+-4 Thoughtseize, -1 Swamp, -1 Rain of  Filth
++2 Fluster, +2 Chain of Vapor, +2 Tormod’s Crypt
+
+
+
+
+
+
+
+
+
+
+
+
+~  Stoneblade:
+- 2 Dark Petition, -1 Cabal Ritual
+ +1 Tendrils of Agony, +2 Abrupt Decay (I sometimes bring in Xantid against UW Blade but never Esper. It also gains value if they Surgical you game 2 and see 0 Empty 0 Xantid because they will almost certainly board out removal of all kinds. If you see Meddling Mage and no RiP, Dark Petition should stay in your deck. You can shave Preordains,  Petals, or a Misty)
+
+
+~ RUG/Grixis Delver
+ -1 Ad Nauseam, -1 Petition
+ +1 Tendrils of Agony, +1 Empty the Warrens (Sometimes I cut Preordain for Flusterstorm)
+
+
+~ Merfolk
+ - 2 Dark Petition, -1 Preordain
+ +2 Abrupt Decay,  +1 Xantid Swarm (This sucks. We have to board out a lot of business because they have FoW and Chalice. Gotta get a little lucky here)
+
+
+~  Red Stompy
+ -3 Duress, -2 Dark Petition, -2 Preordain
+  +2 Abrupt Decay, +2 Echoing Truth, +2  Chain of Vapor, +1 Empty the Warrens (I really do not like Empty against this deck but I think it is a necessary evil. Just accept that you are going to lose to sweepers or Rabblemaster and bite the bullet. If you see sweepers past Confluence and you don’t don’t see Leyline of the Void feel free to add back Dark Petition or add the third Decay, Decay also gains value if you see Scab-Clan Beserker) 
+
+
+~ Grixis Control:
+-1 Swamp, -1 Rain of Filth, -1 Dark Petition, -1 Lotus Petal
++1 Empty the Warrens, +2 Fluster, +1 Tendrils of Agony
+
+
+~ RB Reanimator
+-1 Swamp, -1 Rain of Filth, -2 Thoughtseize, -2 Preordain
+ +2 Chain of Vapor, +2 Fluster, +2 Tormod’s Crypt
+
+
+~ Turbo Depths:
+   -2 Dark Petition  +2 Chain of Vapor (Adjust accordingly if you need more answers to Sphere. Duress and Swamp are fine cuts. I also sometimes like Fluster in this matchup, I’m not sure if it is better than Duress)
+
+
+~ Death’s Shadow:
+-2 Dark Petition, -1 Ad Nauseam, -1 Rain of Filth
++2 Flusterstorm, +1 Empty the Warrens, +1 Tendrils of Agony
+
+
+~ Steel Stompy/Affinity:
+  -3 Duress, -2 Dark Petition, -1 Preordain
+ +2 Abrupt Decay, +2 Hurkyl’s Recall, +2 Chain of Vapor
+
+
+~ Enchantress:
+-2 Dark Petition, -1 Island, -1 Cabal Ritual 
++2 Chain of Vapor, +2 Abrupt Decay
+
+
+~Goblins
+-3 Duress, -2 Dark Petition
++2 Abrupt Decay, +2 Chain of Vapor, +1 Empty the Warrens
+
+
+~Pox
+-4 Thoughtseize. -1 Duress
++2 Chain of Vapor, +2 Flusterstorm, +1 Empty the Warrens
+
+
+~ Nic Fit
++2 Chain of Vapor, +2 Abrupt Decay
+-3 Duress, -1 Preordain
+
+
+~Tezzerator
++2 Abrupt Decay, +2 Chain of Vapor, +2 Hurkyl’s Recall
+-3 Preordain, -2 Dark Petition, -1 Cabal Ritual
+
+
+~ High Tide
+-1 Swamp, -1 Rain of Filth, -1 Dark Petition
++2 Flusterstorm, +1 Xantid Swarm
+
+
+~Belcher
+-1 Swamp, -1 Preordain
++2 Flusterstorm
+
+
+~Painter
++2 Abrupt Decay, +2 Chain of Vapor, +1 Hurkyl's
+-2 Preordain, -2 Dark Petition, -1 Cabal Ritual

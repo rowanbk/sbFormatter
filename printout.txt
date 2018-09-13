@@ -1,0 +1,54 @@
+-------UB Reanimator--------|----------Eldrazi-----------|---------UR Delver----------
+ -1 Swamp     +2 Fluster    | -3 Duress    +2 Hurkyl's   | -1 Preordain +2 Decay      
+ -1 Rain      +2 Crypt      | -2 Preordain +2 Decay      | -1 Petition  +1 Tendrils   
+ -1 Preordain +1 Xantid     | -2 Petition  +2 CoV        | -1 Island    +1 Empty      
+ -1 Petition                |              +1 Empty      | -1 Ad Naus                 
+ -1 Cabal Rit               |                            |                            
+                            |                            |                            
+-----------Infect-----------|------Death and Taxes-------|----------Maverick----------
+ -2 Petition  +2 Fluster    | -3 Duress    +2 Massacre   | -3 Duress    +2 Massacre   
+ -1 Rain      +2 Decay      | -2 Preordain +2 Decay      | -2 Preordain +2 Decay      
+ -1 Preordain +1 Xantid     | -2 Petition  +2 CoV        | -2 Petition  +2 CoV        
+ -1 Island                  |              +1 Empty      |              +1 Empty      
+                            |                            |                            
+----------4c Loam-----------|---Omnishow/Sneak & Show----|---------Red Stompy---------
+ -3 Duress    +2 Hurkyl's   | -2 Preordain +2 Fluster    | -3 Duress    +2 Truth      
+ -2 Preordain +2 Decay      | -1 Swamp     +2 CoV        | -2 Preordain +2 Decay      
+ -2 Petition  +2 CoV        | -1 Rain      +1 Xantid     | -2 Petition  +2 CoV        
+              +1 Empty      | -1 Petition                |              +1 Empty      
+                            |                            |                            
+-------Grixis Control-------|-------RB Reanimator--------|----------Miracles----------
+ -1 Swamp     +2 Fluster    | -2 Seize     +2 Fluster    | -1 Rain      +2 Decay      
+ -1 Rain      +1 Tendrils   | -2 Preordain +2 Crypt      | -1 Petition  +1 Tendrils   
+ -1 Petition  +1 Empty      | -1 Swamp     +2 CoV        | -1 Cabal Rit               
+ -1 Petal                   | -1 Rain                    |                            
+                            |                            |                            
+-----------Lands------------|--------BUG Midrange--------|------------Burn------------
+ -4 Seize     +2 Hurkyl's   | -1 Rain      +2 Decay      | -3 Duress    +2 Decay      
+ -2 Petition  +2 Decay      | -1 Preordain +1 Empty      | -1 Island    +2 CoV        
+              +2 CoV        | -1 Petition                | -1 Ad Naus   +1 Empty      
+                            |                            |                            
+-----------Elves------------|------Manaless Dredge-------|---------LED Dredge---------
+ -2 Petition  +2 Fluster    | -1 Swamp     +2 Crypt      | -4 Seize     +2 Fluster    
+ -1 Swamp     +2 CoV        | -1 Rain      +1 Xantid     | -1 Swamp     +2 Crypt      
+ -1 Rain                    | -1 Preordain               | -1 Rain      +2 CoV        
+                            |                            |                            
+-------Death’s Shadow-------|---Steel Stompy/Affinity----|--------Enchantress---------
+ -2 Petition  +2 Fluster    | -3 Duress    +2 Hurkyl's   | -2 Petition  +2 Decay      
+ -1 Rain      +1 Tendrils   | -2 Petition  +2 Decay      | -1 Island    +2 CoV        
+ -1 Ad Naus   +1 Empty      | -1 Preordain +2 CoV        | -1 Cabal Rit               
+                            |                            |                            
+----------Goblins-----------|------------Pox-------------|---------Tezzerator---------
+ -3 Duress    +2 Decay      | -4 Seize     +2 Fluster    | -3 Preordain +2 Hurkyl's   
+ -2 Petition  +2 CoV        | -1 Duress    +2 CoV        | -2 Petition  +2 Decay      
+              +1 Empty      |              +1 Empty      | -1 Cabal Rit +2 CoV        
+                            |                            |                            
+---------High Tide----------|----------Painter-----------|-----------Storm------------
+ -1 Swamp     +2 Fluster    | -2 Preordain +2 Decay      | -2 Preordain +2 Fluster    
+ -1 Rain      +1 Xantid     | -2 Petition  +2 CoV        | -1 Rain      +2 Crypt      
+ -1 Petition                | -1 Cabal Rit +1 Hurkyl's   |                            
+                            |                            |                            
+---------Stoneblade---------|-----RUG/Grixis Delver------|----------Merfolk-----------
+ -2 Petition  +2 Decay      | -1 Petition  +1 Tendrils   | -2 Petition  +2 Decay      
+ -1 Cabal Rit +1 Tendrils   | -1 Ad Naus   +1 Empty      | -1 Preordain +1 Xantid     
+                            |                            |                            

@@ -1,8 +1,8 @@
 Polluted Delta/Delver
 Echoing Truth/Truth
-Snow-Covered Swamp/SC Swamp
-Snow-Covered Island/SC Island
-Misty Rainforest/Mister
+Snow-Covered Swamp/Swamp
+Snow-Covered Island/Island
+Misty Rainforest/Misty
 Bloodstained Mire/Mire
 Underground Sea/Sea
 Volcanic Island/Volc
@@ -16,13 +16,19 @@ Past in Flames/PiF
 Tendrils of Agony/Tendrils
 Ad Nauseam/Ad Naus
 Lion’s Eye Diamond/LED
+Lion's Eye Diamond/LED
 Lotus Petal/Petal
 Rain of Filth/Rain
 Abrupt Decay/Decay
 Xantid Swarm/Xantid
 Hurkyl’s Recall/Hurkyl's
+Hurkyl's Recall/Hurkyl's
 Chain of Vapor/CoV
 Flusterstorm/Fluster
 Tormod’s Crypt/Crypt
+Tormod's Crypt/Crypt
 Dread of Night/DoN
 Empty the Warrens/Empty
+ETW/Empty
+Pyromancer's Ascension/Pyro's
+Surgical Extraction/Surgical

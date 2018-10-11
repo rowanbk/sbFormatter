@@ -1,4 +1,3 @@
-Note: The last 2 pages of this google doc are formatted so that you can print it double sided as a sideboard guide
 Decklist: 
 15 Lands:
 4 Polluted Delta 
@@ -40,8 +39,8 @@ SB:
  +2 Pyromancer's Ascension
 
 ~ Storm
-  -1 Island -2 Preordain
-+2 Flusterstorm, +1 Surgical Extraction
+  -1 Island -3 Preordain
++2 Flusterstorm, +2 Surgical Extraction
 
 ~ Lands:
   -4 Thoughtseize, -1 Dark Petition, -1 Past in Flames
@@ -89,8 +88,8 @@ SB:
  +2 Surgical Extraction
 
 ~ LED Dredge
--4 Thoughtseize, -1 Swamp
-+2 Fluster, +2 Chain of Vapor, +1 Surgical Extraction
+-4 Thoughtseize
++2 Fluster +2 Surgical Extraction
 
 ~  Stoneblade:
 - 1 Dark Petition, -1 Past in Flames, -1 Island, -1 Lotus Petal
@@ -113,9 +112,9 @@ SB:
 -1 Island, -1 Lotus Petal, -1 Dark Petition, -1 Past in Flames
 +2 Fluster, +2 Pyromancer's Ascension
 
-~ RB Reanimator
--1 Island, -2 Thoughtseize, -2 Preordain
- +2 Chain of Vapor, +2 Fluster, +1 Surgical Extraction
+~ BR Reanimator
+-1 Island, -2 Thoughtseize, -3 Preordain
+ +2 Chain of Vapor, +2 Fluster, +2 Surgical Extraction
 
 ~ Turbo Depths:
    -1 Dark Petition. -1 Past in Flames, -2 Duress

@@ -32,3 +32,26 @@ Empty the Warrens/Empty
 ETW/Empty
 Pyromancer's Ascension/Pyro's
 Surgical Extraction/Surgical
+Hope of Ghirapur/Hope
+Abrade/Abrade
+Night's Whisper/Whisper
+Flooded Strand/Strand
+Watery Grave/Grave
+Wasteland/Waste
+Street Wraith/Wraith
+Delver of Secrets/Delver
+Stubborn Denial/Stub
+Death's Shadow/Shadow
+Death’s Shadow/Shadow
+Gurmag Angler/Angler
+Force of Will/FoW
+Daze/Daze
+Fatal Push/Push
+Diabolic Edict/Edict
+Dismember/Dismember
+Snuff Out/Snuff
+Reanimate/Reanimate
+Ratchet Bomb/Ratchet
+Liliana, the Last Hope/Liliana
+Liliana the Last Hope/Liliana
+Hymn to Tourach/Hymn

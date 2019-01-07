@@ -1,0 +1,197 @@
+2 Island
+1 Mountain
+4 Shivan Reef
+2 Snow-Covered Island
+4 Spirebluff Canal
+4 Steam Vents
+4 Baral, Chief of Compliance
+3 Goblin Electromancer
+4 Desperate Ritual
+1 Empty the Warrens
+4 Gifts Ungiven
+2 Grapeshot
+4 Manamorphose
+4 Opt
+2 Past in Flames
+4 Pyretic Ritual
+2 Remand
+1 Repeal
+4 Serum Visions
+4 Sleight of Hand
+1 Unsubstantiate
+SIDEBOARD
+2 Abrade
+1 Dismember
+1 Echoing Truth
+2 Empty the Warrens
+1 Flame Slash
+2 Lightning Bolt
+3 Pieces of the Puzzle
+1 Wipe Away
+1 Spell Pierce
+1 Negate
+
+
+Humans
+
+In: 2 Lightning Bolt, 2 Abrade, 1 Echoing Truth, 1 Dismember, 1 Flame Slash
+
+Out: 4 Sleight of Hand, 2 Remand, 1 Empty the Warrens
+
+Burn
+
+In: 2 Lightning Bolt, 2 Empty the Warrens, 1 Echoing Truth, 1 Flame Slash, 1 Spell Pierce
+
+Out: 3 Sleight of Hand, 2 Remand, 1 Gifts Ungiven, 1 Repeal
+
+Hollow One
+
+In: 3 Pieces of the Puzzle, 2 Lightning Bolt, 2 Empty the Warrens, 1 Echoing Truth, 1 Flame Slash
+
+Out: 3 Gifts Ungiven, 2 Remand, 2 Sleight of Hand, 1 Past in Flames, 1 Repeal
+
+Infect
+
+In: 2 Lightning Bolt, 2 Abrade, 1 Dismember, 1 Wipe Away, 1 Spell Pierce
+
+Out: 4 Sleight of Hand, 2 Remand, 1 Empty the Warrens
+
+Bridgevine
+
+In:  3 Pieces of the Puzzle, 2 Empty the Warrens, 1 Echoing Truth
+
+Out: 3 gifts Ungiven, 2 Remand, 1 Past in Flames
+
+Titan Shift
+
+In: 1 Wipe Away, 1 Echoing Truth.
+
+Out: 2 Sleight of Hand
+
+Affinity
+
+In: 2 Abrade, 1 Echoing Truth, 1 Wipe Away, 1 Dismember
+
+Out: 3 Sleight of Hand, 2 Remand
+
+KCI
+
+In: 2 Abrade, 1 Spell Pierce, 1 Negate
+
+Out: 1 Empty the Warrens, 2 Sleight of Hand, 1 Repeal
+
+Dredge
+
+In: 3 Pieces of the Puzzle, 2 Empty the Warrens, 1 Echoing Truth, 1 Spell Pierce
+
+Out: 3 Gifts Ungiven, 1 Past in Flames, 1 Remand, 2 Sleight of Hand
+
+Storm
+
+In: 1 Lightning Bolt, 1 Dismember, 1 Spell Pierce, 1 Negate
+
+Out: 1 Empty the Warrens, 2 Sleight of Hand, 1 Repeal
+
+Living End
+
+In: 3 Pieces of the Puzzle, 1 Echoing Truth, 1 Spell Pierce, 1 Negate
+
+Out: 3 Gifts Ungiven, 1 Past in Flames, 2 Sleight of Hand
+
+Bogles
+
+In: 3 Pieces of the Puzzle, 2 Abrade, 1 Echoing Truth, 1 Wipe Away
+
+Out: 4 Gifts Ungiven, 2 Remand, 1 Sleight of Hand
+
+Tron
+
+In: 3 Pieces of the Puzzle, 1 Wipe Away, 1 Echoing Truth
+
+Out: 2 Gifts Ungiven, 1 Past in Flames, 1 Sleight of Hand, 1 Repeal
+
+Ponza
+
+In: 2 Lightning Bolt, 2 Abrade, 1 Echoing Truth, 1 Flame Slash
+
+Out: 4 Sleight of Hand, 1 Empty the Warrens, 1 Remand
+
+UR Wizards
+
+In: 3 Pieces of the Puzzle,  2 Lightning Bolt, 2 Empty the Warrens, 1 Spell Pierce
+
+Out: 3 Gifts Ungiven, 2 Remand, 1 Goblin Electromancer, 1 Past in Flames, 1 Repeal
+
+Spirits
+
+In: 1 Dismember, 1 Wipe Away, 1 Abrade, 1 Echoing Truth, 2 Pieces of the Puzzle, 1 Flame Slash, 1 Empty the Warrens
+
+Out: 3 Gifts Ungiven, 1 Past in Flames, 2 Remand, 2 Sleight of Hand
+
+Jund
+
+In: 3 Pieces of the Puzzle, 2 Lightning Bolt, 2 Empty the Warrens, 2 Abrade
+
+Out: 2 Gifts Ungiven, 2 Goblin Electromancer, 2 Remand, 2 Baral, Chief of Compliance, 1 Past in Flames
+
+Mardu
+
+In: 3 Pieces of the Puzzle, 2 Lightning Bolt, 2 Empty the Warrens, 2 Abrade, 1 Echoing Truth
+
+Out: 3 Gifts Ungiven, 4 Baral, Chief of Compliance, 2 Goblin Electromancer, 1 Past in Flames
+
+Grixis DS
+
+In: 3 Pieces of the Puzzle, 2 Lightning Bolt, 2 Empty the Warrens, 1 Echoing Truth, 1 Dismember, 1 Negate, 1 Spell Pierce
+
+Out:  4 Gifts Ungiven, 2 Goblin Electromancer, 1 Baral, Chief of Compliance, 1 Past in Flames, 2 Remand, 1 Repeal
+
+UW Control
+
+In:  3 Pieces of the Puzzle, 2 Empty the Warrens, 1 Negate,  1 Wipe Away
+
+Out: 2 Gifts Ungiven, 1 Past in Flames, 2 Goblin Electromancer, 1 Unsubstantiate, 1 Pyretic Ritual
+
+Jeskai
+
+In: 3 Pieces of the Puzzle, 2 Empty the Warrens, 1 Negate, 1 Spell Pierce, 1 Wipe Away
+
+Out: 3 Gifts Ungiven, 2 Goblin Electromancer, 1 Baral, Chief of Compliance, 1 Past in Flames, 1 Pyretic Ritual
+
+Scales
+
+In: 1 Wipe Away, 2 Abrade, 1 Echoing Truth, 2 Lightning Bolt, 1 Dismember, 2 Pieces of the Puzzle
+
+Out: 4 Sleight of Hand, 2 Remand, 2 Gifts Ungiven, 1 Past in Flames
+
+Amulet Titan
+
+In: 1 Wipe Away, 2 Lightning Bolt, 2 Abrade, 1 Echoing Truth, 2 Pieces of the Puzzle
+
+Out: 4 Sleight of Hand, 1 Empty the Warrens, 1 Repeal, 1 Gifts Ungiven, 1 Past in Flames
+
+Blue Moon
+
+In: 3 Pieces of the Puzzle, 2 Empty the Warrens, 1 Wipe Away, 1 Negate,
+
+Out: 2 Gifts Ungiven, 1 Past in Flames, 2 Goblin Electromancer, 1 Unsubstantiate, 1 Baral, Chief of Compliance
+
+Izzet Phoenix
+
+In: 3 Pieces of the Puzzle, 2 Empty the Warrens, 1 Spell Pierce, 1 Dismember, 1 Flame Slash
+
+Out: 2 Gifts Ungiven, 1 Past in Flames, 1 Repeal, 1 Sleight of Hand, 2 Remand, 1 Goblin Electromancer
+
+Company
+
+In: 2 Lightning Bolt, 2 Abrade, 1 Dismember, 1 Flame Slash, 1 Echoing Truth, 1 Wipe Away
+
+Out: 4 Sleight of Hand, 1 Repeal, 1 Empty the Warrens, 2 Remand
+
+Mill
+
+In: 3 Pieces of the Puzzle, 2 Lightning Bolt, 1 Empty the Warrens, 1 Spell Pierce, 1 Negate
+
+Out: 4 Gifts Ungiven, 1 Past in Flames, 1 Unsubstantiate, 1 Remand, 1 Serum Visions
+
+

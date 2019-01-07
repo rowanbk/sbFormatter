@@ -1,17 +1,25 @@
-Polluted Delta/Delver
+Polluted Delta/Delta
+Faerie Macabre/Macabre
+Preordain/Preordain
 Echoing Truth/Truth
 Snow-Covered Swamp/Swamp
+Swamp/Swamp
 Snow-Covered Island/Island
+Island/Island
 Misty Rainforest/Misty
 Bloodstained Mire/Mire
 Underground Sea/Sea
 Volcanic Island/Volc
 Tropical Island/Trop
 Dark Ritual/Dark Rit
+Duress/Duress
+Ponder/Ponder
 Thoughtseize/Seize
-Cabal Ritual/Cabal Rit
+Cabal Ritual/Cabal
 Infernal Tutor/Infernal
 Dark Petition/Petition
+Cabal Therapy/Therapy
+Massacre/Massacre
 Past in Flames/PiF
 Tendrils of Agony/Tendrils
 Ad Nauseam/Ad Naus
@@ -37,7 +45,7 @@ Abrade/Abrade
 Night's Whisper/Whisper
 Flooded Strand/Strand
 Watery Grave/Grave
-Wasteland/Waste
+Wasteland/Wasteland
 Street Wraith/Wraith
 Delver of Secrets/Delver
 Stubborn Denial/Stub
@@ -55,3 +63,34 @@ Ratchet Bomb/Ratchet
 Liliana, the Last Hope/Liliana
 Liliana the Last Hope/Liliana
 Hymn to Tourach/Hymn
+Bitterblossom/Blossom
+Grafdigger's Cage/Cage
+Marsh Casualties/Marsh
+Wipe away/Wipe
+Pieces of the Puzzle/Pieces
+Ignite Memories/Ignite
+Gifts Ungiven/Gifts
+Remand/Remand
+Sleight of Hand/Sleight
+Lightning Bolt/Bolt
+Goblin Electromancer/Electro
+Baral Chief of Compliance/Baral
+Unsubstantiate/Unsub
+Pyretic ritual/Pyretic
+Dread Return/Return
+Ashen Rider/Rider
+Nature's Claim/Claim
+Serenity/Serenity
+Careful Study/Study
+Putrid Imp/Pimp
+Golgari Thug/Thug
+Ichorid/Ichorid
+Leyline of the Void/Leyline
+Silent Gravestone/Gravestone
+Breakthrough/Break
+Gigadrowse/Giga
+Spell Pierce/Pierce
+Flame Slash/Slash
+Repeal/Repeal
+Negate/Negate
+Serum Visions/Serum

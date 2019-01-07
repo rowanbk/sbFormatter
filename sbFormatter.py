@@ -104,11 +104,13 @@ parser.add_argument('-o',nargs='?', default="printout.txt")
 parser.add_argument('-i',action='store_true')
 parser.add_argument('-f',nargs='?', default=False)
 parser.add_argument('-c',action='store_true')
+parser.add_argument('-s',action='store_true')
 args = parser.parse_args()
 
 out = open(vars(args)['o'],"w")
 noshorten = vars(args)['i']
 cws = vars(args)['c']
+addFoldSpace = vars(args)['s']
 allout = vars(args)['f']
 nms = open("abbrs.txt","r")
 shortNames = {}
@@ -228,6 +230,10 @@ if allout != False:
     for r in range(ceil(len(decks)/cols)):
         decks = groupByPlan(decks)
         totalout = []
+        if addFoldSpace and rowCount >= maxRowCount:
+            for r in range(max(1,(25 - rowCount))):
+                out.write((foldSpace*((6*max_name_width)+5))+'\n')
+            rowCount = 0
         for c in range(cols):
             i = (cols*r)+c
             if i < len(decks):
@@ -248,6 +254,7 @@ if allout != False:
             else:
                 out.write((decklimiter).ljust(colwidth))
         out.write(decklimiter+'\n')
+        rowCount += 1
         for num in range(15):
             for c in range(cols):
                 if c < len(totalout):
@@ -255,7 +262,9 @@ if allout != False:
                 else:
                     out.write(decklimiter.ljust(colwidth))
             out.write(decklimiter+'\n')
+            rowCount += 1
         out.write(decklimiter+(((cols*colwidth)-1)*name_acc)+decklimiter+'\n')
+        rowCount += 1
 
 else:
     for i in range(0,len(decks),3):
@@ -264,7 +273,7 @@ else:
         maxRows = decks[i].rows()
         printString = ""
 
-        if rowCount >= maxRowCount:
+        if addFoldSpace and rowCount >= maxRowCount:
             for r in range(max(1,(25 - rowCount))):
                 out.write((foldSpace*((6*max_name_width)+5))+'\n')
             rowCount = 0

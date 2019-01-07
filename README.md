@@ -46,6 +46,7 @@ Output:
 
 #Options
 -c : use Caleb formatting instead of Cyrus formatting
+-s : add spaces where the page should be folded
 -f N : alternate format where the guide shows the 15 cards that should be removed instead of ins and outs. N is the number of columns to print with
 	eg. python sbFormatter.py -f 3 CyrusGuide.txt
 	output:

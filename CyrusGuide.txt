@@ -6,6 +6,7 @@
 1 Bayou
 1 Swamp
 1 Island
+45 Spells:
 4 Brainstorm
 4 Dark Ritual
 4 Thoughtseize
@@ -20,7 +21,7 @@
 1 Ad Nauseam
 4 Lion’s Eye Diamond 
 4 Lotus Petal
-Sideboard
+SB:
 2 Abrupt Decay
 2 Xantid Swarm
 2 Flusterstorm
@@ -30,13 +31,15 @@ Sideboard
 1 Massacre
 1 Empty the Warrens
 
+
+
 ~ Miracles
 -1 Lotus Petal, -1 Cabal Ritual, -2 Preordain
 +2 Abrupt Decay, +2 Xantid Swarm
 
 ~ Stoneblade
--1 Lotus Petal, -1 Cabal Ritual, -1 Rain of Filth, -1 Dark Petition, -1 Past in Flames
-+2 Abrupt Decay,  +1 Massacre, +2 Xantid Swarm
+-1 Lotus Petal, -1 Cabal Ritual, -1 Preordain
++2 Abrupt Decay,  +1 Massacre 
 
 ~  Eldrazi:
   -4 Duress, -1 Dark Petition, -1 Past in Flames, -2 Preordain
@@ -50,13 +53,13 @@ Sideboard
   -4 Thoughtseize, -1 Dark Petition, -1 Past in Flames, -1 Preordain
  +3 Echoing Truth, +2 Hurkyl’s Recall, +2 Chain of Vapor
 
-~ Aluren/Food Chain
+~ BUG Midrange
+ -1 Cabal Ritual, -1 Preordain -1 Dark Petition
++2 Abrupt Decay OPTION: +1 Empty the Warrens
+
+~ BUG Combo
  -1 Cabal Ritual, -1 Preordain
 +2 Abrupt Decay
-
-~ Fair BUG
- -1 Cabal Ritual, -1 Preordain -1 Dark Petition
-+2 Abrupt Decay +1 Empty the Warrens
 
 ~ UR Delver
   -1 Ad Nauseam, -2 Preordain
@@ -78,7 +81,7 @@ Sideboard
   -2 Preordain, -1 Past in Flames, -1 Dark Petition
   +2 Xantid Swarm, + 2 Flusterstorm
 
-~  D&T/Maverick
+~  D&T
   -4 Duress,  -1 Past in Flames, -1 Dark Petition, -1 Preordain
  +3 Echoing Truth, +2 Chain of Vapor, +1 Massacre, +1 Empty the Warrens
 
@@ -86,7 +89,7 @@ Sideboard
   -2 Duress, -2 Preordain, -1 Dark Petition, -1 Past in Flames 
   +3 Echoing Truth, +2 Hurkyl’s Recall, +1 Chain of Vapor
 
-~ S&S
+~ Sneak&Show
   -1 Swamp, -1 Dark Petition, -1 Cabal Ritual, -2 Preordain, -1 Past in Flames
   +2 Xantid Swarm, +2 Flusterstorm, +2 Chain of Vapor
 
@@ -94,7 +97,7 @@ Sideboard
   -2 Duress, -1 Swamp, -1 Past in Flames
   +2 Flusterstorm, +2 Chain of Vapor
 
-~ Manaless Dredge:
+~ Manaless
 -1 Swamp, -1 Preordain
 +2 Xantid Swarm
 
@@ -102,13 +105,14 @@ Sideboard
 -4 Thoughtseize, -1 Island
 +2 Flusterstorm, +3 Echoing Truth
 
-~ RUG/Grixis/Shadow
+~ RUG/Grixis/DS
  -1 Ad Nauseam
  +1 Empty the Warrens
 
 ~ Merfolk
  - 1 Dark Petition, -1 Past in Flames, -4 Preordain, -1 Cabal Ritual
  +3 Echoing Truth, +2 Abrupt Decay, +2 Xantid Swarm
+
 
 
 ~  Red Stompy
@@ -144,7 +148,7 @@ Sideboard
 +3 Echoing Truth, +2 Chain of Vapor
 
 ~Tezzerator
--4 Preordain, -1 Dark Petition, -1 Past in Flames, -1 Bloodstained Mire, -1 Cabal Ritual
+-4 Preordain, -1 Dark Petition, -1 Past in Flames, -1 Misty Rainforest, -1 Cabal Ritual
 +2 Abrupt Decay, +3 Echoing Truth, +2 Hurkyl’s Recall, +1 Chain of Vapor
 
 ~ High Tide
@@ -162,3 +166,4 @@ Sideboard
 ~C/G Post
 -1 Dark Petition, -1 Past in Flames, -2 Preordain, -1 Cabal Ritual
 +3 Echoing Truth, +2 Chain of Vapor
+

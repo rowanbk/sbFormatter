@@ -39,7 +39,7 @@ class Deck(object):
                 if name in shortNames and not noshorten:
                     s[i] = s[i][:3]+shortNames[name]
                 elif not name in listed and not noshorten:
-                    print("No abbr for:",name,self.name)
+                    print('Add "'+name+'" to abbrs.txt or correct the card name in '+self.name)
                     listed.append(name)
 
 def CWStoCyrus(f):
@@ -231,8 +231,9 @@ if allout != False:
         decks = groupByPlan(decks)
         totalout = []
         if addFoldSpace and rowCount >= maxRowCount:
-            for r in range(max(1,(25 - rowCount))):
+            for r in range(max(0,(24 - rowCount))):
                 out.write((foldSpace*((6*max_name_width)+5))+'\n')
+            out.write(('--'+(foldSpace*((6*max_name_width)+1)))+'--\n')
             rowCount = 0
         for c in range(cols):
             i = (cols*r)+c
@@ -274,8 +275,9 @@ else:
         printString = ""
 
         if addFoldSpace and rowCount >= maxRowCount:
-            for r in range(max(1,(25 - rowCount))):
+            for r in range(max(0,(24 - rowCount))):
                 out.write((foldSpace*((6*max_name_width)+5))+'\n')
+            out.write(('-'+(foldSpace*((6*max_name_width)+3)))+'-\n')
             rowCount = 0
 
         if(j<len(decks)):

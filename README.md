@@ -84,3 +84,5 @@ Output:
 
 -o : save to a file other than "printout.txt"
 	eg. python sbFormatter.py -o saveme.txt
+
+-m : print out interesting metrics about the sideboard plan

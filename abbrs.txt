@@ -82,6 +82,7 @@ Ashen Rider/Rider
 Nature's Claim/Claim
 Serenity/Serenity
 Careful Study/Study
+Gemstone Mine/Gemstone
 Putrid Imp/Pimp
 Golgari Thug/Thug
 Ichorid/Ichorid

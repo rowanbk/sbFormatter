@@ -6,7 +6,6 @@
 1 Bayou
 1 Swamp
 1 Island
-45 Spells:
 4 Brainstorm
 4 Dark Ritual
 4 Thoughtseize
@@ -21,7 +20,7 @@
 1 Ad Nauseam
 4 Lion’s Eye Diamond 
 4 Lotus Petal
-SB:
+sideboard
 2 Abrupt Decay
 2 Xantid Swarm
 2 Flusterstorm

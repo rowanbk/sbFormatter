@@ -17,6 +17,13 @@ class Deck(object):
     def rows(self):
        return max(len(self.cardsIn)+len(self.maybeIn),len(self.cardsOut)+len(self.maybeOut))
 
+    def changeCount(self):
+       tot = 0
+       for change in self.cardsIn:
+           num,name = change[1:].split(" ",1)
+           tot += int(num)
+       return tot
+
     def sortCards(self):
        self.cardsIn.sort(reverse=True)
        self.cardsOut.sort(reverse=True)
@@ -105,12 +112,14 @@ parser.add_argument('-i',action='store_true')
 parser.add_argument('-f',nargs='?', default=False)
 parser.add_argument('-c',action='store_true')
 parser.add_argument('-s',action='store_true')
+parser.add_argument('-m',action='store_true')
 args = parser.parse_args()
 
 out = open(vars(args)['o'],"w")
 noshorten = vars(args)['i']
 cws = vars(args)['c']
 addFoldSpace = vars(args)['s']
+metrics = vars(args)['m']
 allout = vars(args)['f']
 nms = open("abbrs.txt","r")
 shortNames = {}
@@ -202,15 +211,74 @@ if len(decks) == 0 or len(cards) == 0:
 
 max_name_width = 0
 listed = []
+inpercents = {}
+outpercents = {}
 for deck in decks:
     deck.shortenNames(noshorten != False)
     if (len(deck.name)//2)+1 > max_name_width:
         max_name_width = (len(deck.name)//2)+1
+        long_names = [deck.name]
+    elif (len(deck.name)//2)+1 == max_name_width and not deck.name in long_names:
+        long_names.append(deck.name)
     for card in deck.cardsIn + deck.cardsOut:
         if len(card) > max_name_width:
             max_name_width = len(card)
+            long_names = [card[3:]]
+        elif len(card) == max_name_width and not card[3:] in long_names:
+            long_names.append(card[3:])
     deck.sortCards()
     deck.checkNums()
+    if metrics:
+        for card in deck.cardsOut:
+            num,cname = card[1:].split(" ",1)
+            num = int(num)
+            for copy in range(num):
+                name = cname+str(copy)
+                if name in outpercents:
+                    outpercents[name]+=1
+                else:
+                    outpercents[name]=num
+        for card in deck.cardsIn:
+            num,cname = card[1:].split(" ",1)
+            num = int(num)
+            for copy in range(num):
+                name = cname+str(copy)
+                if name in inpercents:
+                    inpercents[name]+=1
+                else:
+                    inpercents[name]=num
+if metrics:
+    instrings,outstrings,deckstrings = [],[],[]
+    in_width = max([len(c) for c in inpercents])
+    instrings.append("Card".ljust(in_width)+" In%")
+    instrings.append("-"*(in_width+4))
+    for card in sorted(sorted(inpercents,reverse=True),key=inpercents.get,reverse=True):
+        instrings.append(card[:-1].ljust(in_width)+str(int(100*(inpercents[card]/len(decks)))).rjust(3)+"%")
+
+    out_width = max([len(c) for c in outpercents])
+    outstrings.append("Card".ljust(out_width)+"Out%")
+    outstrings.append("-"*(out_width+4))
+    for card in sorted(sorted(outpercents,reverse=True),key=outpercents.get,reverse=True):
+        outstrings.append(card[:-1].ljust(out_width)+str(int(100*(outpercents[card]/len(decks)))).rjust(3)+"% ")
+
+    deck_width = max([len(deck.name) for deck in decks])
+    deckstrings.append("Deck".ljust(deck_width-2)+"Cards")
+    deckstrings.append("-"*(deck_width+3))
+    for deck in sorted(decks,key=lambda deck: deck.changeCount(),reverse = True):
+        deckstrings.append(deck.name.ljust(deck_width)+str(deck.changeCount()).rjust(3))
+
+    max_height = max(len(instrings),len(outstrings),len(deckstrings))
+    instrings += [' '*(in_width+4)]*(max_height - len(instrings))
+    outstrings += [' '*(out_width+4)]*(max_height - len(outstrings))
+    deckstrings += [' '*(deck_width+4)]*(max_height - len(deckstrings))
+    for r in range(max_height):
+        print(deckstrings[r],' '*5,instrings[r],' '*5,outstrings[r])
+    print('\nLong names:',end=" ")
+    for name in long_names:
+        print(name,end="")
+        if name != long_names[-1]:
+            print(",",end=" ")
+    print()
 
 name_row = ""
 max_name_width += 2

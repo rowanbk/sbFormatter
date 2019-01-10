@@ -5,38 +5,54 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
  
 class PDFbuilder(object):
-    def __init__(self,dci,last_name,first_name,date,event,location,deck_name,deck_dev,deckfile,decklist,maincount,sidecount,sidefile,plan):
+    def __init__(self):
 
-        self.tmp = "tmp_overlay.pdf"
+        self.tmp = "pdfbuilder/tmp_overlay.pdf"
         mono_font = r"FreeMono.ttf"
         pdfmetrics.registerFont(TTFont("Mono", mono_font))
 
-        self.create_decklist(dci,last_name,first_name,date,event,location,deck_name,deck_dev,maincount,sidecount,decklist)
+    def decklist(self,attrs,deckfile,decklist):
+        self.create_decklist(attrs,decklist)
         self.merge_pdfs('pdfbuilder/empty_decklist.pdf',deckfile)
-        self.create_sideboard(plan)
+
+    def sideboard(self,sidefile,sideplan):
+        self.create_sideboard(sideplan)
         self.merge_pdfs('pdfbuilder/empty_sideboard.pdf',sidefile)
 
-    def create_decklist(self,dci,last_name,first_name,date,event,location,deck_name,deck_dev,maincount,sidecount,decklist):
+    def create_decklist(self,attrs,decklist):
         """
         Create the data that will be overlayed on top
         of the form that we want to fill
         """
         c = canvas.Canvas(self.tmp)
         c.rotate(90)
-        c.drawString(246, -43, first_name)
-        c.drawString(67, -43, last_name)
-        for i in range(len(dci)):
-            c.drawString(420+24*i, -43, dci[i])
+        #first name
+        c.drawString(246, -43, attrs[2])
+        #last name
+        c.drawString(67, -43, attrs[1])
+        for i in range(len(attrs[0])):
+            #DCI
+            c.drawString(420+24*i, -43, attrs[0][i])
         c.rotate(-90)
 
-        c.drawString(560, 747, last_name[0])
 
-        c.drawString(195, 722, date)
-        c.drawString(195, 698, location)
+        #first letter last name
+        c.drawString(560, 747, attrs[1][0])
 
-        c.drawString(415, 722, event)
-        c.drawString(415, 698, deck_name)
-        c.drawString(415, 674, deck_dev)
+        #date
+        c.drawString(195, 722, attrs[3])
+
+        #location
+        c.drawString(195, 698, attrs[5])
+
+        #event name
+        c.drawString(415, 722, attrs[4])
+
+        #deck name
+        c.drawString(415, 698, attrs[6])
+
+        #deck designer
+        c.drawString(415, 674, attrs[7])
 
 
         main = sorted(decklist[:decklist.index("")],reverse=True)
@@ -51,8 +67,8 @@ class PDFbuilder(object):
             num,name = side[row].split(" ",1)
             c.drawString(355, 358-row*18,num+(" "*10)+name)
 
-        c.drawString(271, 29, str(maincount))
-        c.drawString(545, 83, str(sidecount))
+        c.drawString(271, 29, attrs[8])
+        c.drawString(545, 83, attrs[9])
         c.save()
 
     def create_sideboard(self,plan):

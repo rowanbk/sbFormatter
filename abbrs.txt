@@ -87,7 +87,7 @@ Putrid Imp/Pimp
 Golgari Thug/Thug
 Ichorid/Ichorid
 Leyline of the Void/Leyline
-Silent Gravestone/Gravestone
+Silent Gravestone/SGS
 Breakthrough/Break
 Gigadrowse/Giga
 Spell Pierce/Pierce

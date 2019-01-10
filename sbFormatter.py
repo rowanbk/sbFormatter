@@ -115,6 +115,7 @@ parser.add_argument('-c',action='store_true')
 parser.add_argument('-s',action='store_true')
 parser.add_argument('-m',action='store_true')
 parser.add_argument('-p',action='store_true')
+parser.add_argument('-d',action='store_true')
 args = parser.parse_args()
 
 noshorten = vars(args)['i']
@@ -122,6 +123,7 @@ cws = vars(args)['c']
 addFoldSpace = vars(args)['s']
 metrics = vars(args)['m']
 txtplan = vars(args)['p']
+makelist = vars(args)['d']
 allout = vars(args)['f']
 nms = open("abbrs.txt","r")
 shortNames = {}
@@ -451,12 +453,11 @@ if txtplan:
     with open(vars(args)['o'],"w") as out:
         out.write(sbtext)
 
-with open("decklistMetadata.txt","r") as f:
-    attrs = {"dci":"","last_name":"","first name":"","date":"","event":"","location":"","deck name":"","deck designer":""}
-    for l in f:
-        attr,info = l.split(":",1)
-        attrs[attr.lower()] = info.rstrip().lstrip()
-builder = PDFbuilder(attrs["dci"],attrs["last name"],attrs["first name"],attrs["date"],attrs["event"],
-                        attrs["location"],attrs["deck name"], attrs["deck designer"],
-                        fname.split(".")[0]+"Decklist.pdf",decklist,sidestart,sidecards,
-                        fname.split(".")[0]+"Guide.pdf",sbtext.split("\n"))
+builder = PDFbuilder()
+builder.sideboard(fname.split(".")[0]+"Guide.pdf",sbtext.split("\n"))
+if makelist:
+    attr_names = ["DCI","Last name","First name","Date","Event","Location","Deck name","Deck designer"]
+    attrs = []
+    for attr in attr_names:
+        attrs.append(input(attr+": "))
+    builder.decklist(attrs+[str(sidestart),str(sidecards)],fname.split(".")[0]+"Decklist.pdf",decklist)

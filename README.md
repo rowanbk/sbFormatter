@@ -88,3 +88,5 @@ Output:
 -m : print out interesting metrics about the sideboard plan
 
 -p : save in text form as well as pdf
+
+-d : print decklist as well as sideboard plan

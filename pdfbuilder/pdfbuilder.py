@@ -4,33 +4,43 @@ from reportlab.pdfgen import canvas
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
  
-class PDFbuilder(object): 
-    def __init__(self,name,dci,decklist,maincount,sidecount,plan):
-        self.name = name
-        self.dci = dci
-        self.decklist = decklist
-        self.count = [maincount,sidecount]
-        self.plan = plan.split("\n")
-        self.tmp = "tmp_overlay.pdf"
+class PDFbuilder(object):
+    def __init__(self,dci,last_name,first_name,date,event,location,deck_name,deck_dev,deckfile,decklist,maincount,sidecount,sidefile,plan):
 
-    def create_decklist(self):
+        self.tmp = "tmp_overlay.pdf"
+        mono_font = r"FreeMono.ttf"
+        pdfmetrics.registerFont(TTFont("Mono", mono_font))
+
+        self.create_decklist(dci,last_name,first_name,date,event,location,deck_name,deck_dev,maincount,sidecount,decklist)
+        self.merge_pdfs('pdfbuilder/empty_decklist.pdf',deckfile)
+        self.create_sideboard(plan)
+        self.merge_pdfs('pdfbuilder/empty_sideboard.pdf',sidefile)
+
+    def create_decklist(self,dci,last_name,first_name,date,event,location,deck_name,deck_dev,maincount,sidecount,decklist):
         """
         Create the data that will be overlayed on top
         of the form that we want to fill
         """
-        last_name,first_name = self.name.split(",")
         c = canvas.Canvas(self.tmp)
         c.rotate(90)
-        c.drawString(243, -43, first_name)
+        c.drawString(246, -43, first_name)
         c.drawString(67, -43, last_name)
-        for i in range(len(self.dci)):
-            c.drawString(420+24*i, -43, self.dci[i])
+        for i in range(len(dci)):
+            c.drawString(420+24*i, -43, dci[i])
         c.rotate(-90)
+
         c.drawString(560, 747, last_name[0])
 
+        c.drawString(195, 722, date)
+        c.drawString(195, 698, location)
 
-        main = sorted(self.decklist[:self.decklist.index("")],reverse=True)
-        side = sorted(self.decklist[self.decklist.index("")+1:],reverse=True)
+        c.drawString(415, 722, event)
+        c.drawString(415, 698, deck_name)
+        c.drawString(415, 674, deck_dev)
+
+
+        main = sorted(decklist[:decklist.index("")],reverse=True)
+        side = sorted(decklist[decklist.index("")+1:],reverse=True)
         for row in range(len(main)):
             num,name = main[row].split(" ",1)
             if row <= 31:
@@ -41,22 +51,20 @@ class PDFbuilder(object):
             num,name = side[row].split(" ",1)
             c.drawString(355, 358-row*18,num+(" "*10)+name)
 
-        c.drawString(271, 29, str(self.count[0]))
-        c.drawString(545, 83, str(self.count[1]))
+        c.drawString(271, 29, str(maincount))
+        c.drawString(545, 83, str(sidecount))
         c.save()
 
-    def create_sideboard(self):
+    def create_sideboard(self,plan):
         c = canvas.Canvas(self.tmp)
-        mono_font = r"FreeMono.ttf"
-        pdfmetrics.registerFont(TTFont("Mono", mono_font))
         c.setFont("Mono", 10.5, leading=None)
         #barcode_string = '<font name="Free 3 of 9 Regular" size="16">%s</font>'
         #barcode_string = barcode_string % "1234567890"
 
 
 
-        for row in range(len(self.plan)):
-            c.drawString(17, 783-row*10.5,self.plan[row])
+        for row in range(len(plan)):
+            c.drawString(17, 783-row*10.5,plan[row])
 
         c.save()
 

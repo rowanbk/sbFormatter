@@ -451,8 +451,12 @@ if txtplan:
     with open(vars(args)['o'],"w") as out:
         out.write(sbtext)
 
-builder = PDFbuilder("Burns-Kirkness, Rowan","3223714043",decklist,sidestart,sidecards,sbtext)
-builder.create_decklist()
-builder.merge_pdfs('pdfbuilder/empty_decklist.pdf',fname.split(".")[0]+"Decklist.pdf")
-builder.create_sideboard()
-builder.merge_pdfs('pdfbuilder/empty_sideboard.pdf',fname.split(".")[0]+"Guide.pdf")
+with open("decklistMetadata.txt","r") as f:
+    attrs = {"dci":"","last_name":"","first name":"","date":"","event":"","location":"","deck name":"","deck designer":""}
+    for l in f:
+        attr,info = l.split(":",1)
+        attrs[attr.lower()] = info.rstrip().lstrip()
+builder = PDFbuilder(attrs["dci"],attrs["last name"],attrs["first name"],attrs["date"],attrs["event"],
+                        attrs["location"],attrs["deck name"], attrs["deck designer"],
+                        fname.split(".")[0]+"Decklist.pdf",decklist,sidestart,sidecards,
+                        fname.split(".")[0]+"Guide.pdf",sbtext.split("\n"))

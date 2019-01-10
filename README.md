@@ -86,3 +86,5 @@ Output:
 	eg. python sbFormatter.py -o saveme.txt
 
 -m : print out interesting metrics about the sideboard plan
+
+-p : save in text form as well as pdf

@@ -1,6 +1,7 @@
 import re
 import argparse
 from math import *
+from pdfbuilder.pdfbuilder import PDFbuilder
 
 class Deck(object):
 
@@ -113,17 +114,19 @@ parser.add_argument('-f',nargs='?', default=False)
 parser.add_argument('-c',action='store_true')
 parser.add_argument('-s',action='store_true')
 parser.add_argument('-m',action='store_true')
+parser.add_argument('-p',action='store_true')
 args = parser.parse_args()
 
-out = open(vars(args)['o'],"w")
 noshorten = vars(args)['i']
 cws = vars(args)['c']
 addFoldSpace = vars(args)['s']
 metrics = vars(args)['m']
+txtplan = vars(args)['p']
 allout = vars(args)['f']
 nms = open("abbrs.txt","r")
 shortNames = {}
-with open(vars(args)['path'],"r") as f:
+fname = vars(args)['path']
+with open(fname,"r") as f:
     if cws:
         file_lines = CWStoCyrus(f)
     else:
@@ -137,16 +140,18 @@ cards = []
 duplicate = False
 maindeck = 1
 sidestart = 0
+decklist = []
 for line in file_lines:
     if re.search(r'[-+] [1-4]',line):
         line = re.sub(r'(?<=[-+]) (?=[1-4])','', line)
     if "sideboard" in line.lower():
         maindeck = 0
+        decklist.append("")
     elif re.search(r'^[1-4] [A-Z][A-Za-z ]',line):
+        decklist.append(line.rstrip())
         line = line.lower().rstrip('\n')
-        if not "sideboard" in line:
-            num,name = line.split(" ",1)
-            cards += int(num)*[name]
+        num,name = line.split(" ",1)
+        cards += int(num)*[name]
         sidestart += int(num)*maindeck
     elif '~' in line:
         line = line[:line.find(':')]
@@ -207,6 +212,17 @@ decks.sort()
 #decks = groupByPlan(decks.copy())
 if len(decks) == 0 or len(cards) == 0:
     print("Decklist or argument error")
+    exit(1)
+if sidestart > 60:
+    print("Just so you know maindeck is",sidestart,"cards")
+elif sidestart < 60:
+    print("Illegal decklist:",sidestart,"maindeck cards")
+    exit(1)
+sidecards = len(cards)-sidestart
+if sidecards < 15:
+    print("Just so you know sideboard is only",sidecards,"cards")
+elif sidecards > 15:
+    print("Illegal decklist:",sidecards,"sideboard cards")
     exit(1)
 
 max_name_width = 0
@@ -270,7 +286,7 @@ if metrics:
     max_height = max(len(instrings),len(outstrings),len(deckstrings))
     instrings += [' '*(in_width+4)]*(max_height - len(instrings))
     outstrings += [' '*(out_width+4)]*(max_height - len(outstrings))
-    deckstrings += [' '*(deck_width+4)]*(max_height - len(deckstrings))
+    deckstrings += [' '*(deck_width+3)]*(max_height - len(deckstrings))
     for r in range(max_height):
         print(deckstrings[r],' '*5,instrings[r],' '*5,outstrings[r])
     print('\nLong names:',end=" ")
@@ -293,6 +309,7 @@ rowCount = 6
 maxRowCount = 20
 colwidth = max([len(shortNames[card]) for card in shortNames]+[len(deck.name)+3 for deck in decks])
 cols = int(allout)
+sbtext = ""
 
 if allout != False:
     for r in range(ceil(len(decks)/cols)):
@@ -300,13 +317,13 @@ if allout != False:
         totalout = []
         if addFoldSpace and rowCount >= maxRowCount:
             for r in range(max(0,(24 - rowCount))):
-                out.write((foldSpace*((6*max_name_width)+5))+'\n')
-            out.write(('--'+(foldSpace*((6*max_name_width)+1)))+'--\n')
+                sbtext += ((foldSpace*((6*max_name_width)+5))+'\n')
+            sbtext += (('--'+(foldSpace*((6*max_name_width)+1)))+'--\n')
             rowCount = 0
         for c in range(cols):
             i = (cols*r)+c
             if i < len(decks):
-                out.write((decklimiter+bolden+decks[i].name+bolden).ljust(colwidth))
+                sbtext += ((decklimiter+bolden+decks[i].name+bolden).ljust(colwidth))
                 totalin = []
                 totalout.append([])
                 for line in decks[i].cardsIn:
@@ -321,18 +338,18 @@ if allout != False:
                 for line in decks[i].cardsOut:
                     totalout[c] += int(line[1])*[line[3:]]
             else:
-                out.write((decklimiter).ljust(colwidth))
-        out.write(decklimiter+'\n')
+                sbtext += ((decklimiter).ljust(colwidth))
+        sbtext += (decklimiter+'\n')
         rowCount += 1
         for num in range(15):
             for c in range(cols):
                 if c < len(totalout):
-                    out.write((decklimiter+totalout[c][num]).ljust(colwidth))
+                    sbtext += ((decklimiter+totalout[c][num]).ljust(colwidth))
                 else:
-                    out.write(decklimiter.ljust(colwidth))
-            out.write(decklimiter+'\n')
+                    sbtext += (decklimiter.ljust(colwidth))
+            sbtext += (decklimiter+'\n')
             rowCount += 1
-        out.write(decklimiter+(((cols*colwidth)-1)*name_acc)+decklimiter+'\n')
+        sbtext += (decklimiter+(((cols*colwidth)-1)*name_acc)+decklimiter+'\n')
         rowCount += 1
 
 else:
@@ -344,8 +361,8 @@ else:
 
         if addFoldSpace and rowCount >= maxRowCount:
             for r in range(max(0,(24 - rowCount))):
-                out.write((foldSpace*((6*max_name_width)+5))+'\n')
-            out.write(('-'+(foldSpace*((6*max_name_width)+3)))+'-\n')
+                sbtext += ((foldSpace*((6*max_name_width)+5))+'\n')
+            sbtext += (('-'+(foldSpace*((6*max_name_width)+3)))+'-\n')
             rowCount = 0
 
         if(j<len(decks)):
@@ -375,7 +392,7 @@ else:
         else:
             printString+=decklimiter+2*max_name_width*' '+decklimiter
 
-        out.write(printString+'\n')
+        sbtext += (printString+'\n')
         rowCount+=1
         for r in range(maxRows+1):
             printString = decklimiter+" "
@@ -426,6 +443,16 @@ else:
             else:
                 printString+= (max_name_width-1)*' '
             printString+=decklimiter
-            out.write(printString+'\n')
+            sbtext += (printString+'\n')
             rowCount+=1
-    out.write((name_acc*((6*max_name_width)+5))+'\n')
+    sbtext += ((name_acc*((6*max_name_width)+5))+'\n')
+
+if txtplan:
+    with open(vars(args)['o'],"w") as out:
+        out.write(sbtext)
+
+builder = PDFbuilder("Burns-Kirkness, Rowan","3223714043",decklist,sidestart,sidecards,sbtext)
+builder.create_decklist()
+builder.merge_pdfs('pdfbuilder/empty_decklist.pdf',fname.split(".")[0]+"Decklist.pdf")
+builder.create_sideboard()
+builder.merge_pdfs('pdfbuilder/empty_sideboard.pdf',fname.split(".")[0]+"Guide.pdf")

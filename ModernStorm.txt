@@ -5,7 +5,7 @@
 4 Spirebluff Canal
 4 Steam Vents
 4 Baral, Chief of Compliance
-3 Goblin Electromancer
+2 Goblin Electromancer
 4 Desperate Ritual
 1 Empty the Warrens
 4 Gifts Ungiven

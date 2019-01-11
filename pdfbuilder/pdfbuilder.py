@@ -80,7 +80,7 @@ class PDFbuilder(object):
 
 
         for row in range(len(plan)):
-            c.drawString(17, 783-row*10.5,plan[row])
+            c.drawString(17, 803-row*10.5,plan[row])
 
         c.save()
 

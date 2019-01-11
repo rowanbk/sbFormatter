@@ -300,6 +300,11 @@ if metrics:
 
 name_row = ""
 max_name_width += 2
+if max_name_width > 14:
+    print("Names too long to print nicely")
+    exit(1)
+else:
+    max_name_width = 14
 card_rows = []
 max_block = 0
 decklimiter = '|'

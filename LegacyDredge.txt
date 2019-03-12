@@ -17,46 +17,50 @@
 4 Street Wraith
 Sideboard
 1 Ashen Rider
-1 Dread Return
+2 Dread Return
 2 Faerie Macabre
 2 Lotus Petal
 2 Nature's Claim
 2 Serenity
-3 Silent Gravestone
+2 Silent Gravestone
 2 Tormod's Crypt
 
 ~Control
--1 Golgari Thug -2 Breakthrough
-+3 Silent Gravestone
-
-~Delver
 -1 Golgari Thug -1 Breakthrough
-+1 Dread Return +1 Lotus Petal
++2 Silent Gravestone
+
+~Delver(*Draw)
+-1 Golgari Thug -1 Breakthrough OPTION: -2 Breakthrough
++2 Dread Return OPTION: +2 Lotus Petal
 
 ~Chalice
--2 Careful Study -2 Putrid Imp -1 Golgari Thug -1 Ichorid -2 Cabal Therapy
-+1 Dread Return +1 Ashen Rider +2 Nature's Claim +2 Serenity +2 Lotus Petal
+-2 Careful Study -2 Putrid Imp -2 Golgari Thug -1 Ichorid -2 Cabal Therapy
++2 Dread Return +1 Ashen Rider +2 Nature's Claim +2 Serenity +2 Lotus Petal
 
-~Eldrazi
--2 Careful Study -2 Putrid Imp -1 Golgari Thug -2 Cabal Therapy
-+1 Dread Return +2 Nature's Claim +2 Serenity +2 Lotus Petal
+~Eldrazi Aggro
+-2 Careful Study -2 Putrid Imp -1 Golgari Thug -2 Cabal Therapy -1 Ichorid
++2 Dread Return +2 Nature's Claim +2 Serenity +2 Lotus Petal
 
-~SnS (Cage)
-+1 Dread Return, +1 Ashen Rider, OPTION: +2 Nature's Claim
--1 Golgari Thug, -1 Ichorid, OPTION: -1 Putrid Imp, -1 Careful Study
+~SnS(*Cage)
++2 Dread Return, +1 Ashen Rider, OPTION: +2 Nature's Claim
+-1 Putrid Imp -1 Golgari Thug, -1 Ichorid, OPTION: -2 Careful Study
 
 ~Storm
-+1 Ashen Rider +1 Dread Return +1 Lotus Petal
--1 Putrid Imp -1 Ichorid, -1 Golgari Thug
++1 Ashen Rider +2 Dread Return +2 Lotus Petal
+-2 Putrid Imp -1 Ichorid, -1 Golgari Thug -1 Gemstone Mine
 
 ~BR
--4 Street Wraith, -1 Ichorid, -1 Golgari Thug, -1 Putrid Imp
-+3 Silent Gravestone +2 Faerie Macabre +2 Tormod's Crypt
+-4 Street Wraith, -1 Ichorid, -1 Golgari Thug
++2 Silent Gravestone +2 Faerie Macabre +2 Tormod's Crypt
 
-~Lands
-+1 Dread Return, +1 Ashen Rider, +1 Lotus Petal OPTION: +1 Lotus Petal
--1 Putrid Imp, -1 Ichorid, -1 Golgari Thug OPTION: -1 Gemstone Mine
+~Lands(*Draw)
++2 Dread Return, +1 Ashen Rider, +1 Lotus Petal OPTION: +1 Lotus Petal
+-2 Putrid Imp, -1 Ichorid, -1 Golgari Thug OPTION: -1 Gemstone Mine
 
-~D&T (Draw)
-+2 Lotus Petal
--2 Putrid Imp
+~D&T(*Draw)
+OPTION: +2 Lotus Petal
+OPTION: -2 Putrid Imp
+
+~Arclight
+-1 Golgari Thug -1 Ichorid -2 Putrid Imp -1 Breakthrough
++1 Ashen Rider +2 Dread Return +2 Faerie Macabre

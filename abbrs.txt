@@ -36,6 +36,7 @@ Flusterstorm/Fluster
 Tormod’s Crypt/Crypt
 Tormod's Crypt/Crypt
 Dread of Night/DoN
+Extirpate/Extirpate
 Empty the Warrens/Empty
 ETW/Empty
 Pyromancer's Ascension/Pyro's
@@ -95,3 +96,21 @@ Flame Slash/Slash
 Repeal/Repeal
 Negate/Negate
 Serum Visions/Serum
+Etherial Haze/Haze
+Pact of Negation/Negation
+Slaughter Pact/Slaughter
+Leyline of Sanctity/Sanctity
+Pentad Prism/Pentad
+Laboratory Maniac/Labman
+Temple of Deceit/Deceit
+Phyrexian Unlife/Unlife
+Lotus Bloom/Bloom
+Spoils of the Vault/Spoils
+Grand Abolisher/Abolisher
+Angel's Grace/Grace
+Patrician's Scorn/Scorn
+Path to Exile/Path
+Vendilion Clique/Clique
+Banefire/Banefire
+Bontu's Last Reckoning/Bontu's
+Supreme Verdict/Verdict

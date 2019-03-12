@@ -28,17 +28,24 @@ class Deck(object):
     def sortCards(self):
        self.cardsIn.sort(reverse=True)
        self.cardsOut.sort(reverse=True)
+       self.maybeIn.sort(reverse=True)
+       self.maybeOut.sort(reverse=True)
 
     def checkNums(self):
         count = 0
+        error = False
         for card in self.cardsIn:
             count += int(card[1])
         for card in self.cardsOut:
             count -= int(card[1])
         if len(self.maybeOut) == 0 and count > 0:
             print(self.name,count,"more in than out")
+            error = True
         if len(self.maybeIn) == 0 and count < 0:
             print(self.name,-1*count,"more out than in")
+            error = True
+        if error:
+            exit(1)
 
     def shortenNames(self,noshorten):
         for s in [self.cardsIn,self.cardsOut,self.maybeIn,self.maybeOut]:
@@ -180,15 +187,16 @@ for line in file_lines:
                         decks[-1].maybeOut.append(change+name)
                     else:
                         decks[-1].cardsOut.append(change+name)
-                        if optional:
-                            option = True
+                        option = optional
                 elif re.search(r'^[+][1-4]',change):
                     if option:
                         decks[-1].maybeIn.append(change+name)
                     else:
                         decks[-1].cardsIn.append(change+name)
-                        if optional:
-                            option = True
+                        option = optional
+                else:
+                    option = optional
+
                 name = ""
                 change = word
             elif name.lstrip() in cards:

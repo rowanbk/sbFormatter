@@ -33,6 +33,7 @@ Hurkyl’s Recall/Hurkyl's
 Hurkyl's Recall/Hurkyl's
 Chain of Vapor/CoV
 Flusterstorm/Fluster
+Krosan Grip/KGrip
 Tormod’s Crypt/Crypt
 Tormod's Crypt/Crypt
 Dread of Night/DoN
@@ -114,3 +115,29 @@ Vendilion Clique/Clique
 Banefire/Banefire
 Bontu's Last Reckoning/Bontu's
 Supreme Verdict/Verdict
+Ancient grudge/Grudge
+Destructive revelry/Revelry
+Reclamation sage/Rec Sage
+Shatterstorm/SStorm
+Tireless tracker/Tracker
+Relic of progenitus/Relic
+Anger of the gods/Anger
+Khalni heart expedition/Khalni
+Valakut the molten pinnacle/Valakut
+Farseek/Farseek
+Courser of Kruphix/Courser
+Explore/Explore
+Damping Sphere/DampS
+Grafdigger’s Cage/Cage
+Obstinate Baloth/Baloth
+Scapeshift/Shift
+Primeval Titan/Titan
+Gut Shot/Gut Shot
+Young Pyromancer/Peazy
+Pyroblast/REB
+Arclight Phoenix/Arclight
+Toxic Deluge/Deluge
+Buried Alive/Buried
+Godhead of Awe/Awe
+Cataclysmic Gearhulk/Gearhulk
+Mystical Teachings/Teachings

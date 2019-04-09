@@ -44,8 +44,7 @@ class Deck(object):
         if len(self.maybeIn) == 0 and count < 0:
             print(self.name,-1*count,"more out than in")
             error = True
-        if error:
-            exit(1)
+        return error
 
     def shortenNames(self,noshorten):
         for s in [self.cardsIn,self.cardsOut,self.maybeIn,self.maybeOut]:
@@ -135,6 +134,8 @@ allout = vars(args)['f']
 nms = open("abbrs.txt","r")
 shortNames = {}
 fname = vars(args)['path']
+if not ".txt" in fname:
+    fname += ".txt"
 with open(fname,"r") as f:
     if cws:
         file_lines = CWStoCyrus(f)
@@ -151,12 +152,14 @@ maindeck = 1
 sidestart = 0
 decklist = []
 for line in file_lines:
-    if re.search(r'[-+] [1-4]',line):
-        line = re.sub(r'(?<=[-+]) (?=[1-4])','', line)
+    if re.search(r'^#.*',line):
+        continue
+    if re.search(r'[-+] [1-9]',line):
+        line = re.sub(r'(?<=[-+]) (?=[1-9])','', line)
     if "sideboard" in line.lower():
         maindeck = 0
         decklist.append("")
-    elif re.search(r'^[1-4] [A-Z][A-Za-z ]',line):
+    elif re.search(r'^[1-9] [A-Z][A-Za-z ]',line):
         decklist.append(line.rstrip())
         line = line.lower().rstrip('\n')
         num,name = line.split(" ",1)
@@ -171,7 +174,7 @@ for line in file_lines:
                 break
         if not duplicate:
             decks.append(Deck(line))
-    elif not duplicate and re.search(r'[-+][1-4]',line):
+    elif not duplicate and re.search(r'[-+][1-9]',line):
         words = re.split('[, ]',line)
         change = ""
         name = ""
@@ -181,14 +184,14 @@ for line in file_lines:
             word = word.rstrip(',./:\n ')
             if word == "OPTION":
                 optional = True
-            elif re.search(r'^[-+][1-4]$',word):
-                if re.search(r'^[-][1-4]',change):
+            elif re.search(r'^[-+][1-9]$',word):
+                if re.search(r'^[-][1-9]',change):
                     if option:
                         decks[-1].maybeOut.append(change+name)
                     else:
                         decks[-1].cardsOut.append(change+name)
                         option = optional
-                elif re.search(r'^[+][1-4]',change):
+                elif re.search(r'^[+][1-9]',change):
                     if option:
                         decks[-1].maybeIn.append(change+name)
                     else:
@@ -204,12 +207,12 @@ for line in file_lines:
             elif len(word)> 1:
                 name+=' '+word
 
-        if re.search(r'^[-][1-4]',change):
+        if re.search(r'^[-][1-9]',change):
             if optional:
                 decks[-1].maybeOut.append(change+name)
             else:
                 decks[-1].cardsOut.append(change+name)
-        elif re.search(r'^[+][1-4]',change):
+        elif re.search(r'^[+][1-9]',change):
             if optional:
                 decks[-1].maybeIn.append(change+name)
             else:
@@ -239,6 +242,7 @@ max_name_width = 0
 listed = []
 inpercents = {}
 outpercents = {}
+error = 0
 for deck in decks:
     deck.shortenNames(noshorten != False)
     if (len(deck.name)//2)+1 > max_name_width:
@@ -253,7 +257,7 @@ for deck in decks:
         elif len(card) == max_name_width and not card[3:] in long_names:
             long_names.append(card[3:])
     deck.sortCards()
-    deck.checkNums()
+    error = deck.checkNums() or error
     if metrics:
         for card in deck.cardsOut:
             num,cname = card[1:].split(" ",1)
@@ -263,7 +267,7 @@ for deck in decks:
                 if name in outpercents:
                     outpercents[name]+=1
                 else:
-                    outpercents[name]=num
+                    outpercents[name]=1
         for card in deck.cardsIn:
             num,cname = card[1:].split(" ",1)
             num = int(num)
@@ -272,7 +276,10 @@ for deck in decks:
                 if name in inpercents:
                     inpercents[name]+=1
                 else:
-                    inpercents[name]=num
+                    inpercents[name]=1
+if error:
+    exit(1)
+
 if metrics:
     instrings,outstrings,deckstrings = [],[],[]
     in_width = max([len(c) for c in inpercents])

@@ -114,6 +114,7 @@ Path to Exile/Path
 Vendilion Clique/Clique
 Banefire/Banefire
 Bontu's Last Reckoning/Bontu's
+Bontu’s Last Reckoning/Bontu's
 Supreme Verdict/Verdict
 Ancient grudge/Grudge
 Destructive revelry/Revelry
@@ -127,7 +128,7 @@ Valakut the molten pinnacle/Valakut
 Farseek/Farseek
 Courser of Kruphix/Courser
 Explore/Explore
-Damping Sphere/DampS
+Damping Sphere/Damping
 Grafdigger’s Cage/Cage
 Obstinate Baloth/Baloth
 Scapeshift/Shift
@@ -138,6 +139,20 @@ Pyroblast/REB
 Arclight Phoenix/Arclight
 Toxic Deluge/Deluge
 Buried Alive/Buried
-Godhead of Awe/Awe
+Godhead of Awe/Godhead
 Cataclysmic Gearhulk/Gearhulk
 Mystical Teachings/Teachings
+Solemnity/Solemnity
+Flex/PP|SoH
+Collective Brutality/CoBru
+Kolaghan's Command/KCom
+Kolaghan’s Command/KCom
+Engineered Explosives/EE
+Ceremonious Rejection/Rejection
+Spell Snare/Snare
+Temur Battle Rage/TBR
+Disdainful Stroke/Stroke
+Jace Vryn's Prodigy/JVP
+Jace Vryn’s Prodigy/JVP
+Snapcaster Mage/Snap
+Inquisition of Kozilek/IoK

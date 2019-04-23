@@ -416,6 +416,7 @@ else:
 
         sbtext += (printString+'\n')
         rowCount+=1
+        maxRows = max(maxRows,1)
         for r in range(maxRows+1):
             printString = decklimiter+" "
             if len(decks[i].cardsOut) > r:
@@ -423,6 +424,8 @@ else:
             elif len(decks[i].cardsOut)+len(decks[i].maybeOut) > r:
                 maybeR = r-len(decks[i].cardsOut)
                 printString += decks[i].maybeOut[maybeR]+optional+' '*(max_name_width-1-len(decks[i].maybeOut[maybeR]))
+            elif len(decks[i].cardsIn)+len(decks[i].maybeIn) == 0 and r==0:
+                printString += "No Changes" + ' '*(max_name_width-len("No Changes"))
             else:
                 printString+=(max_name_width)*' '
             if len(decks[i].cardsIn) > r:
@@ -439,6 +442,8 @@ else:
             elif j<len(decks) and len(decks[j].cardsOut)+len(decks[j].maybeOut) > r:
                 maybeR = r-len(decks[j].cardsOut)
                 printString += decks[j].maybeOut[maybeR]+optional+' '*(max_name_width-1-len(decks[j].maybeOut[maybeR]))
+            elif len(decks[i].cardsIn)+len(decks[i].maybeIn) == 0 and r==0 and j<len(decks):
+                printString += "No Changes" + ' '*(max_name_width-len("No Changes"))
             else:
                 printString+=(max_name_width)*' '
             if j<len(decks) and len(decks[j].cardsIn) > r:
@@ -455,6 +460,8 @@ else:
             elif k<len(decks) and len(decks[k].cardsOut)+len(decks[k].maybeOut) > r:
                 maybeR = r-len(decks[k].cardsOut)
                 printString += decks[k].maybeOut[maybeR]+optional+' '*(max_name_width-1-len(decks[k].maybeOut[maybeR]))
+            elif len(decks[i].cardsIn)+len(decks[i].maybeIn) == 0 and r==0 and k<len(decks):
+                printString += "No Changes" + ' '*(max_name_width-len("No Changes"))
             else:
                 printString+=(max_name_width)*' '
             if k<len(decks) and len(decks[k].cardsIn) > r:

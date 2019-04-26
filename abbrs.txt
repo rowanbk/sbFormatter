@@ -156,3 +156,4 @@ Jace Vryn's Prodigy/JVP
 Jace Vryn’s Prodigy/JVP
 Snapcaster Mage/Snap
 Inquisition of Kozilek/IoK
+Ground Seal/Seal

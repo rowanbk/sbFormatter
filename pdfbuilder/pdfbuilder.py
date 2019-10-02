@@ -1,5 +1,6 @@
 import pdfrw
 import os
+from platform import system
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
@@ -8,7 +9,12 @@ class PDFbuilder(object):
     def __init__(self):
 
         self.tmp = "pdfbuilder/tmp_overlay.pdf"
-        mono_font = r"FreeMono.ttf"
+        if system() == 'Windows':
+            mono_font = r"FreeMono.ttf"
+        if system() == 'Darwin':
+            mono_font = r"/Library/Fonts/Andale Mono.ttf"
+        else:
+            print("no font for "+system())
         pdfmetrics.registerFont(TTFont("Mono", mono_font))
 
     def decklist(self,attrs,deckfile,decklist):

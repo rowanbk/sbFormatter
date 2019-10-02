@@ -1,183 +1,166 @@
-4 Thoughtseize
-4 Preordain
-4 Ponder
-4 Polluted Delta
-4 Lotus Petal
-4 Lion's Eye Diamond
-4 Infernal Tutor
-4 Dark Ritual
-4 Cabal Ritual
-4 Brainstorm
+4 Polluted Delta 
 3 Misty Rainforest
-3 Duress
-2 Underground Sea
-2 Past in Flames
-2 Island
-1 Volcanic Island
-1 Tendrils of Agony
-1 Swamp
-1 Rain of Filth
-1 Dark Petition
 1 Bloodstained Mire
+2 Underground Sea
+1 Volcanic Island
+1 Tropical Island
 1 Bayou
+1 Snow-Covered Swamp
+1 Snow-Covered Island
+4 Brainstorm
+4 Dark Ritual
+4 Thoughtseize
+4 Duress
+4 Ponder
+4 Preordain
+4 Cabal Ritual
+4 Infernal Tutor
+1 Dark Petition
+2 Past in Flames
+1 Tendrils of Agony
 1 Ad Nauseam
-Sideboard
-4 Echoing Truth
-3 Abrupt Decay
-2 Flusterstorm
+4 Lion's Eye Diamond 
+4 Lotus Petal
+SB:
+2 Abrupt Decay
+2 Veil of Summer
 1 Xantid Swarm
+2 Flusterstorm
+2 Chain of Vapor
+2 Echoing Truth
+2 Hurkyl's Recall
 1 Massacre
-1 Hurkyl’s Recall
 1 Empty the Warrens
-1 Duress
-1 Chain of Vapor
-
-~Aggro Loam
--2 Preordain -2 Duress -1 Past in Flames -1 Dark Petition OPTION: -1 Duress 
-+4 Echoing Truth +1 Hurkyl’s Recall +1 Chain of Vapor OPTION: +1 Empty the Warrens 
-
-~BR Reanimator 
--2 Thoughtseize -1 Rain of Filth -1 Island 
-+2 Flusterstorm +1 Duress +1 Chain of Vapor 
-
-~BUG Combo
--1 Rain of Filth -1 Cabal Ritual -1 Preordain 
-+1 Duress +2 Abrupt Decay
-
-~BUG Midrange
--1 Rain of Filth -1 Cabal Ritual -1 Dark Petition -1 Preordain 
-+1 Empty the Warrens +1 Duress +2 Abrupt Decay 
-
-~Belcher
--2 Preordain -1 Rain of Filth -1 Past in Flames -1 Island 
-+2 Flusterstorm +2 Echoing Truth +1 Duress 
-
-~Burn
--3 Duress -1 Island -1 Ad Nauseam 
-+3 Echoing Truth +1 Empty the Warrens +1 Chain of Vapor 
-
-~C/G Post
--2 Preordain -1 Rain of Filth -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Chain of Vapor 
-#Efficacy 93% improved from 73% preboard
 
 
-~D&T
--3 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Massacre +1 Empty the Warrens +1 Chain of Vapor 
+~ Miracles
+-1 Cabal Ritual, -1 Lotus Petal, -2 Preordain
++2 Abrupt Decay, +2 Veil of Summer
 
-~Maverick
--3 Duress -2 Preordain -1 Past in Flames -1 Rain of Filth
-+4 Echoing Truth +1 Massacre +1 Empty the Warrens +1 Chain of Vapor 
+~ Stoneblade
+-1 Cabal Ritual,  -2 Preordain  -1 Dark Petition, -1 Past in Flames
++1 Massacre,  +2 Abrupt Decay,  +2 Veil of Summer
 
-~Delver (Wasteland)
--1 Rain of Filth -1 Past in Flames -1 Ad Nauseam 
-+1 Empty the Warrens +1 Duress +1 Chain of Vapor 
+~ Chalice Apes
+  -4 Duress, -1 Dark Petition, -1 Past in Flames, -2 Preordain
+ +2 Hurkyl's Recall, +2 Abrupt Decay, +2 Echoing Truth, +1 Chain of Vapor, +1 Empty the Warrens
 
-~DelverBlade
--1 Rain of Filth -1 Preordain 
-+1 Massacre +1 Duress 
+~ Storm
+-2 Preordain,   -1 Swamp, -1 Island
++2 Flusterstorm, +2 Veil of Summer
 
-~Dragon Stompy
--3 Duress -2 Preordain -1 Past in Flames OPTION: -1 Dark Petition 
-+4 Echoing Truth +1 Hurkyl’s Recall +1 Chain of Vapor OPTION: +1 Empty the Warrens
+~ Lands:
+  -4 Thoughtseize, -1 Dark Petition, -1 Past in Flames
+ +2 Echoing Truth, +2 Hurkyl's Recall, +2 Chain of Vapor
 
-~Eldrazi
--3 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Hurkyl’s Recall +1 Empty the Warrens +1 Chain of Vapor 
-#Efficacy 86% improved from 63% preboard
+~ BUG Midrange
+ -1 Cabal Ritual, -2 Preordain, -1 Lotus Petal OPTION: -1 Dark Petition
++2 Abrupt Decay, +2 Veil of Summer OPTION: +1 Empty the Warrens
 
+~ URx Delver
+  -1 Ad Nauseam, -1 Dark Petition, -1 Past in Flames
+ +1 Empty the Warrens, +2 Abrupt Decay
 
-~Elves
--1 Rain of Filth -1 Past in Flames -1 Island -1 Dark Petition 
-+2 Flusterstorm +1 Duress +1 Chain of Vapor 
+~ UW Delver
+  -1 Ad Nauseam, -1 Dark Petition, -1 Past in Flames
+ +1 Massacre, +2 Abrupt Decay
 
-~Enchantress
--3 Duress -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Chain of Vapor 
+~ Dimir Shadow
+  -1 Ad Nauseam, -1 Dark Petition, -1 Past in Flames
+ +1 Empty the Warrens, +2 Veil of Summer
 
-~Goblins
--3 Duress -1 Preordain -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Empty the Warrens +1 Chain of Vapor 
+~ UBRx Control
+-1 Lotus Petal, -1 Cabal Ritual, -1 Past in Flames, -1 Dark Petition, -1 Preordain
++2 Veil of Summer, +2 Abrupt Decay, +1 Empty the Warrens
 
-~Grixis Control
--1 Rain of Filth -1 Lotus Petal -1 Cabal Ritual -1 Dark Petition 
-+2 Flusterstorm +1 Duress +1 Empty the Warrens 
+~ Burn
+  -4 Duress,  -1 Ad Nauseam
+  +1 Empty the Warrens,  +2 Chain of Vapor, +2 Echoing Truth
 
-~High Tide
--2 Preordain -1 Rain of Filth -1 Island 
-+2 Flusterstorm +1 Xantid Swarm +1 Duress 
+~  Dimir Reanimator
+-2 Preordain, -1 Swamp
+ + 1 Xantid Swarm, +2 Flusterstorm
 
-~Infect
--2 Preordain -1 Rain of Filth -1 Past in Flames -1 Island -1 Dark Petition 
-+2 Flusterstorm +2 Abrupt Decay +1 Xantid Swarm +1 Duress 
+~  Infect:
+ -1 Dark Petition, -1 Past in Flames, -2 Preordain, -1 Cabal Ritual
+  +1 Xantid Swarm, +2 Flusterstorm, +2 Abrupt Decay
 
-~LED Dredge
--2 Thoughtseize -1 Island -1 Preordain
-+2 Flusterstorm +1 Duress +1 Chain of Vapor
+~ Thalia/Lackey
+  -4 Duress,  -1 Past in Flames, -1 Dark Petition, -2 Preordain, 
++2 Chain of Vapor, +2 Abrupt Decay, +2 Echoing Truth, +1 Massacre, +1 Empty the Warrens 
 
-~Lands
--4 Thoughtseize -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Hurkyl’s Recall +1 Chain of Vapor 
-#Efficacy 83% improved from 57% preboard
+~ 4c Loam
+  -4 Duress, -1 Preordain, -1 Dark Petition, -1 Past in Flames 
+ +2 Abrupt Decay, +2 Chain, +2 Echoing Truth, +1 Empty the Warrens
 
+~ SnS
+  -1 Swamp, -1 Past in Flames, -2 Preordain
+  +1 Xantid Swarm, +2 Flusterstorm, +1 Chain of Vapor
 
-~Manaless Dredge
--1 Rain of Filth -1 Island 
-+1 Xantid Swarm +1 Duress 
+~ Elves:
+  -1 Swamp, -1 Past in Flames, -1 Dark Petition 
+  +2 Flusterstorm, +1 Chain of Vapor
 
-~Merfolk
--2 Preordain -1 Rain of Filth -1 Past in Flames -1 Dark Petition 
-+3 Abrupt Decay +1 Xantid Swarm +1 Hurkyl’s Recall
+~ Manaless Dredge:
+-1 Swamp, -2 Preordain
++1 Xantid Swarm, +2 Veil of Summer
 
-~Miracles
--1 Rain of Filth -1 Lotus Petal -1 Cabal Ritual -1 Preordain OPTION: -1 Preordain -1 Infernal Tutor
-+3 Abrupt Decay +1 Duress OPTION: +1 Xantid Swarm +1 Empty the Warrens 
+~ LED Dredge
+-1 Swamp, -4 Thoughtseize
++2 Veil of Summer, +2 Flusterstorm,  +1 Chain of Vapor
 
-~Nic Fit
--3 Duress -2 Preordain 
-+4 Echoing Truth +1 Chain of Vapor 
+~ Merfolk
+ -1 Dark Petition, -1 Past in Flames, -4 Preordain, -1 Cabal Ritual
++2 Abrupt Decay, +2 Echoing Truth, +2 Hurkyl's Recall, +1 Xantid Swarm
 
-~Omni/SnS
--2 Preordain -1 Rain of Filth -1 Past in Flames -1 Island 
-+2 Flusterstorm +1 Xantid Swarm +1 Duress +1 Chain of Vapor 
+~ RB Reanimator
+-1 Swamp, -2 Thoughtseize, -2 Preordain
+ +2 Flusterstorm, +1 Chain of Vapor, +2 Veil of Summer
+~ Turbo Depths:
+   -4 Duress, -1 Dark Petition, -1 Past in Flames
+ +2 Chain of Vapor, +2 Echoing Truth, +2 Veil of Summer
 
-~Painter
--2 Preordain -2 Duress -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Hurkyl’s Recall +1 Chain of Vapor 
-
-~Phoenix
--1 Rain of Filth -1 Past in Flames -1 Dark Petition 
-+2 Flusterstorm +1 Duress 
+~ Enchantress:
+-1 Dark Petition, -1 Past in Flames, -4 Duress
++2 Echoing Truth, +2 Chain of Vapor, +2 Abrupt Decay
 
 ~Pox
--4 Thoughtseize -3 Duress -1 Rain of Filth 
-+4 Echoing Truth +2 Flusterstorm +1 Empty the Warrens +1 Chain of Vapor 
-
-~Steel Stompy
--3 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
-+4 Echoing Truth +1 Hurkyl’s Recall +1 Empty the Warrens +1 Chain of Vapor 
-
-~Stoneblade
--1 Rain of Filth -1 Lotus Petal -1 Dark Petition -1 Cabal Ritual OPTION: -1 Preordain 
-+2 Abrupt Decay +1 Massacre +1 Duress OPTION: +1 Abrupt Decay 
-
-~Storm
--1 Rain of Filth -1 Preordain -1 Island 
-+2 Flusterstorm +1 Duress 
+-4 Thoughtseize, -4 Duress
++2 Chain of Vapor, +1 Echoing Truth, +2 Flusterstorm, +2 Veil of Summer, +1 Empty the Warrens
+ 
+~ Nic Fit
+-4 Duress, -1 Dark Petition, -1 Past in Flames
++2 Echoing Truth, +2 Chain of Vapor, +2 Veil of Summer
 
 ~Tezzerator
--4 Preordain -1 Rain of Filth -1 Past in Flames -1 Dark Petition 
-+3 Abrupt Decay +1 Duress +1 Chain of Vapor +1 Echoing Truth +1 Hurkyl's Recall
+-4 Preordain, -1 Dark Petition, -1 Past in Flames, -1 Cabal Ritual
++2 Abrupt Decay, +2 Hurkyl's Recall, +2 Echoing Truth, +1 Empty the Warrens
 
-~Turbo Depths
--3 Duress -1 Rain of Filth -1 Past in Flames -1 Island -1 Dark Petition 
-+4 Echoing Truth +2 Flusterstorm +1 Chain of Vapor 
+~ High Tide
+-1 Swamp, -2 Preordain, -1 Dark Petition, -1 Past in Flames
++2 Flusterstorm, +1 Xantid Swarm, +2 Veil of Summer
 
-~UB Reanimator
--1 Rain of Filth -1 Preordain -1 Past in Flames -1 Island 
-+2 Flusterstorm +1 Xantid Swarm +1 Duress 
+~Belcher
+-1 Swamp, -2 Preordain, -1 Island
++2 Flusterstorm, +2 Echoing Truth
 
-~UR (No Wasteland)
--2 Preordain -1 Rain of Filth -1 Ad Nauseam 
-+2 Abrupt Decay +1 Empty the Warrens +1 Duress 
+~Painter
+-2 Preordain, -1 Dark Petition, -1 Past in Flames, -2 Duress
++2 Echoing Truth, +2 Hurkyl's Recall, +2 Chain of Vapor
+
+~C/G Post
+-2 Preordain, -1 Dark Petition, -1 Past in Flames
++2 Echoing Truth, +2 Chain of Vapor
+
+~Grixis Phoenix
+-1 Dark Petition, -1 Past in Flames, -1 Swamp, -1 Preordain
++2 Flusterstorm, +2 Veil of Summer
+
+~Hogaak
+-1 Dark Petition, -1 Past in Flames, -2 Duress, -4 Thoughtseize
++2 Flusterstorm, +2 Veil of Summer, +2 Echoing Truth, +2 Chain
+
+~GW Depths
+-1 Dark Petition, -1 Past in Flames, -2 Duress
++2 Chain of Vapor, +2 Echoing Truth
+

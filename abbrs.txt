@@ -158,3 +158,18 @@ Snapcaster Mage/Snap
 Inquisition of Kozilek/IoK
 Ground Seal/Seal
 Veil of Summer/Veil
+Wishclaw Talisman/Wishclaw
+Carpet of Flowers/Carpet
+Force of Negation/FoN
+Hydroblast/BEB
+Narset Parter of Veils/Narset
+Chain Lightning/Chain
+True-Name Nemesis/TNN
+Snow-Covered Mountain/Mountain
+Fiery Islet/Islet
+Submerge/Submerge
+Blood Moon/Moon
+Izzet Staticaster/Staticast
+Stifle/Stifle
+Dreadhorde Arcanist/Arcanist
+Young Pyromancer/Peezy

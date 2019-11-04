@@ -1,6 +1,5 @@
 4 Polluted Delta 
-3 Misty Rainforest
-1 Bloodstained Mire
+4 Misty Rainforest
 2 Underground Sea
 1 Volcanic Island
 1 Tropical Island
@@ -19,7 +18,7 @@
 2 Past in Flames
 1 Tendrils of Agony
 1 Ad Nauseam
-4 Lion's Eye Diamond 
+4 Lion’s Eye Diamond 
 4 Lotus Petal
 SB:
 2 Abrupt Decay
@@ -28,10 +27,9 @@ SB:
 2 Flusterstorm
 2 Chain of Vapor
 2 Echoing Truth
-2 Hurkyl's Recall
+2 Hurkyl’s Recall
 1 Massacre
 1 Empty the Warrens
-
 
 ~ Miracles
 -1 Cabal Ritual, -1 Lotus Petal, -2 Preordain
@@ -43,7 +41,7 @@ SB:
 
 ~ Chalice Apes
   -4 Duress, -1 Dark Petition, -1 Past in Flames, -2 Preordain
- +2 Hurkyl's Recall, +2 Abrupt Decay, +2 Echoing Truth, +1 Chain of Vapor, +1 Empty the Warrens
+ +2 Hurkyl’s Recall, +2 Abrupt Decay, +2 Echoing Truth, +1 Chain of Vapor, +1 Empty the Warrens
 
 ~ Storm
 -2 Preordain,   -1 Swamp, -1 Island
@@ -51,11 +49,15 @@ SB:
 
 ~ Lands:
   -4 Thoughtseize, -1 Dark Petition, -1 Past in Flames
- +2 Echoing Truth, +2 Hurkyl's Recall, +2 Chain of Vapor
+ +2 Echoing Truth, +2 Hurkyl’s Recall, +2 Chain of Vapor
 
 ~ BUG Midrange
  -1 Cabal Ritual, -2 Preordain, -1 Lotus Petal OPTION: -1 Dark Petition
 +2 Abrupt Decay, +2 Veil of Summer OPTION: +1 Empty the Warrens
+
+~ BUG Combo
+ -1 Cabal Ritual, -2 Preordain, -1 Lotus Petal
++2 Abrupt Decay, +2 Veil of Summer
 
 ~ URx Delver
   -1 Ad Nauseam, -1 Dark Petition, -1 Past in Flames
@@ -63,7 +65,7 @@ SB:
 
 ~ UW Delver
   -1 Ad Nauseam, -1 Dark Petition, -1 Past in Flames
- +1 Massacre, +2 Abrupt Decay
+ +1 Massacre, +2 Abrupt Decay 
 
 ~ Dimir Shadow
   -1 Ad Nauseam, -1 Dark Petition, -1 Past in Flames
@@ -85,13 +87,13 @@ SB:
  -1 Dark Petition, -1 Past in Flames, -2 Preordain, -1 Cabal Ritual
   +1 Xantid Swarm, +2 Flusterstorm, +2 Abrupt Decay
 
-~ Thalia/Lackey
+~ Thalia
   -4 Duress,  -1 Past in Flames, -1 Dark Petition, -2 Preordain, 
 +2 Chain of Vapor, +2 Abrupt Decay, +2 Echoing Truth, +1 Massacre, +1 Empty the Warrens 
 
 ~ 4c Loam
   -4 Duress, -1 Preordain, -1 Dark Petition, -1 Past in Flames 
- +2 Abrupt Decay, +2 Chain, +2 Echoing Truth, +1 Empty the Warrens
+ +2 Abrupt Decay, +2 Chain of Vapor, +2 Echoing Truth, +1 Empty the Warrens
 
 ~ SnS
   -1 Swamp, -1 Past in Flames, -2 Preordain
@@ -111,7 +113,7 @@ SB:
 
 ~ Merfolk
  -1 Dark Petition, -1 Past in Flames, -4 Preordain, -1 Cabal Ritual
-+2 Abrupt Decay, +2 Echoing Truth, +2 Hurkyl's Recall, +1 Xantid Swarm
++2 Abrupt Decay, +2 Echoing Truth, +2 Hurkyl’s Recall, +1 Xantid Swarm
 
 ~ RB Reanimator
 -1 Swamp, -2 Thoughtseize, -2 Preordain
@@ -134,7 +136,7 @@ SB:
 
 ~Tezzerator
 -4 Preordain, -1 Dark Petition, -1 Past in Flames, -1 Cabal Ritual
-+2 Abrupt Decay, +2 Hurkyl's Recall, +2 Echoing Truth, +1 Empty the Warrens
++2 Abrupt Decay, +2 Hurkyl’s Recall, +2 Echoing Truth, +1 Empty the Warrens
 
 ~ High Tide
 -1 Swamp, -2 Preordain, -1 Dark Petition, -1 Past in Flames
@@ -158,9 +160,8 @@ SB:
 
 ~Hogaak
 -1 Dark Petition, -1 Past in Flames, -2 Duress, -4 Thoughtseize
-+2 Flusterstorm, +2 Veil of Summer, +2 Echoing Truth, +2 Chain
++2 Flusterstorm, +2 Veil of Summer, +2 Echoing Truth, +2 Chain of Vapor
 
 ~GW Depths
 -1 Dark Petition, -1 Past in Flames, -2 Duress
 +2 Chain of Vapor, +2 Echoing Truth
-

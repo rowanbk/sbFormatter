@@ -4,6 +4,7 @@ Preordain/Preordain
 Echoing Truth/Truth
 Snow-Covered Swamp/Swamp
 Swamp/Swamp
+Bayou/Bayou
 Snow-Covered Island/Island
 Island/Island
 Misty Rainforest/Misty

@@ -161,7 +161,7 @@ Veil of Summer/Veil
 Wishclaw Talisman/Wishclaw
 Carpet of Flowers/Carpet
 Force of Negation/FoN
-Hydroblast/BEB
+Hydroblast/UEB
 Narset Parter of Veils/Narset
 Chain Lightning/Chain
 True-Name Nemesis/TNN
@@ -173,3 +173,4 @@ Izzet Staticaster/Staticast
 Stifle/Stifle
 Dreadhorde Arcanist/Arcanist
 Young Pyromancer/Peezy
+Vapor Snag/Snag

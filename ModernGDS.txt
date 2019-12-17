@@ -1,0 +1,69 @@
+4 Polluted Delta
+4 Bloodstained Mire
+3 Scalding Tarn
+2 Watery Grave
+1 Blood Crypt
+1 Steam Vents
+1 Island
+1 Swamp
+4 Mishra's Bauble
+4 Thoughtseize
+2 Inquisition of Kozilek
+2 Serum Visions
+4 Thought Scour
+3 Fatal Push
+1 Drown in the Loch
+2 Dismember
+4 Stubborn Denial
+2 Temur Battle Rage
+4 Death's Shadow
+4 Gurmag Angler
+4 Street Wraith
+3 Snapcaster Mage
+
+Sideboard
+3 Disdainful Stroke
+2 The Royal Scions
+2 Ashiok, Dream Render
+2 Collective Brutality
+2 Kolaghan's Command
+1 Pithing Needle
+1 Drown in the Loch
+1 Duress
+1 Terminate
+
+~Amulet
+-3 Fatal Push, -1 Snapcaster Mage, -1 Drown in the Loch
++3 Disdainful Stroke, +2 Ashiok, Dream Render
+
+~Burn
+-4 Street Wraith, -2 Dismember, -1 Thoughtseize
++2 Collective Brutality, +2 Kolaghan's Command, +1 Drown in the Loch, +1 Terminate, +1 Duress
+
+~Eldrazi Tron
+-3 Fatal Push, -2 Temur Battle Rage, -1 Stubborn Denial, -1 Drown in the Loch
++2 Kolaghan's Command, +1 Terminate, +3 Disdainful Stroke, +1 Pithing Needle
+
+~Tron
+-3 Fatal Push, -2 Dismember, -1 Drown in the Loch
++1 Kolaghan's Command, +3 Disdainful Stroke, +1 Pithing Needle, +1 Duress
+
+~Jund
+-1 Stubborn Denial, -2 Temur Battle Rage, -2 Street Wraith
++2 The Royal Scions, +2 Kolaghan's Command, +1 Drown in the Loch
+
+~GDS (Choose draw)
+-1 Stubborn Denial, -2 Temur Battle Rage, -2 Inquisition of Kozilek
++2 The Royal Scions, +1 Kolaghan's Command, +1 Drown in the Loch, +1 Terminate
+
+~UW Control
+-3 Fatal Push, -2 Dismember, -2 Temur Battle Rage
++2 Kolaghan's Command,  +2 The Royal Scions, +1 Duress, +1 Drown in the Loch, +1 Pithing Needle
+
+~Dredge
+-3 Snapcaster Mage, -3 Fatal Push
++2 The Royal Scions, +2 Ashiok, Dream Render, +1 Duress, +1 Drown in the Loch
+
+~Simic Urza
+-2 Snapcaster Mage, -2 Temur Battle Rage, -1 Fatal Push, -1 Thought Scour
++1 Pithing Needle, +2 Kolaghan's Command, +1 Drown in the Loch, +2 The Royal Scions

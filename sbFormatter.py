@@ -159,7 +159,7 @@ for line in file_lines:
     if "sideboard" in line.lower():
         maindeck = 0
         decklist.append("")
-    elif re.search(r'^[1-9] [A-Z][A-Za-z ]',line):
+    elif re.search(r'^[1-9]+ [A-Z][A-Za-z ]',line):
         decklist.append(line.rstrip())
         line = line.lower().rstrip('\n')
         num,name = line.split(" ",1)

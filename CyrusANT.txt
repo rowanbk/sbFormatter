@@ -20,7 +20,7 @@
 1 Ad Nauseam
 4 Lion’s Eye Diamond 
 4 Lotus Petal
-SB:
+Sideboard:
 2 Abrupt Decay
 2 Veil of Summer
 1 Xantid Swarm

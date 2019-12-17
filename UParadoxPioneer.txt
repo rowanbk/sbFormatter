@@ -1,0 +1,45 @@
+4 Mox Amber
+4 Emry, Lurker of the Loch
+4 Ornithopter
+4 Springleaf Drum
+4 Fae of Wishes
+4 Inspiring Statuary
+4 Renowned Weaponsmith
+3 Witching Well
+3 Paradox Engine
+3 Sai, Master Thopterist
+2 Saheeli, Sublime Artificer
+2 Walking Ballista
+14 Island
+3 Darksteel Citadel
+2 Inventors' Fair
+
+Sideboard
+3 Aetherize
+4 Hope of Ghirapur
+3 The Antiquities War
+1 Paradoxical Outcome
+1 Tormod's Crypt
+1 Paradox Engine
+1 Aetherflux Resvoir
+1 Retraction Helix
+
+~Aggro
+ -1 Witching Well, -2 Inspiring Statuary
+ +3 Aetherize
+
+~Simic Stompy
+ -2 Saheeli, Sublim Artificer, -1 Witching Well
+ +3 Aetherize
+
+~Pheonix
+ -2 Walking Ballista, -1 Witching Well, -2 Inspiring Statuary
+ +3 Aetherize, +2 Hope of Ghirapur
+
+~Control
+ -4 Ornithopter
+ +3 The Antiquities War, +1 Hope of Ghirapur
+
+~Combo
+ -3 Sai, Master Thopterist, -1 Witching Well
+ +4 Hope of Ghirapur

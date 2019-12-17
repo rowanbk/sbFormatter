@@ -175,3 +175,17 @@ Stifle/Stifle
 Dreadhorde Arcanist/Arcanist
 Young Pyromancer/Peezy
 Vapor Snag/Snag
+Walking Ballista/Ballista
+Witching Well/Well
+Paradox Engine/Engine
+Battle at the Bridge/Battle
+Inspiring Statuary/Statuary
+Sai Master Thopterist/Sai
+Ornithopter/Ornithop
+Saheeli Sublime Artificer/Saheeli
+Drown in the Loch/Drown
+Terminate/Terminate
+The Royal Scions/Scions
+Ashiok Dream Render/Ashiok
+Thought Scour/Scour
+Pithing Needle/Needle

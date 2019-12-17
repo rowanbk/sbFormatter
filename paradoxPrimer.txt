@@ -1,0 +1,220 @@
+I don't enjoy playing magic. I do enjoy puzzles, statistics, and programming. This leads me to play decks which let me feel really smart while preventing me and my opponent from playing more magic than necessary. When I first took a look at Pioneer I didn't see any decks which would allow me to play near-zero amounts of magic so I had to brew something up. MTGO endboss Cl1ffy81 did most of the initial, a friend of mine suggested Fae of Wishes, I figured out the wishboard and we had a workable decklist:
+
+Mono Blue Paradox
+19 Lands
+4 Mox Amber
+4 Emry, Lurker of the Loch
+4 Ornithopter
+4 Springleaf Drum
+4 Fae of Wishes
+4 Inspiring Statuary
+3 Paradox Engine
+3 Sai, Master Thopterist
+2 Saheeli, Sublime Artificer
+(9 Total)
+3-4 Witching Wells
+0-3 Additional Threats
+2-4 Accelerants
+
+Sideboard
+1 Paradoxical Outcome
+1 Tormod's Crypt
+1 Paradox Engine
+1 Aetherflux Resvoir
+1 Retraction Helix
+Cards for Aggro
+Cards for Combo
+Cards for Control
+
+Winning the Game:
+Step one of winning the game is almost always to put a paradox engine into play. Play 3 in the main + 4 fae to find them as fast a possible. Once you put a Paradox Engine into play there a two basic ways to win.
+
+The first is to have a non-summoner sick Emry. Saheeli can grant her psudo-haste by turning an old artifact into an Emry and keeping the copy. Once Emry + Engine is assembled a Mox Amber + (Walking Ballista / Tormod's Crypt / 2nd Amber) is infinite mana and adding Sai, Fae, or Witching Well allows you to kill your opponent. Emry + Engine + (mana producing non-land permanant) + (Walking Ballista / Tormod's Crypt) is also infinite mana and kills can be executed the same way. Emry + Engine + Sai + (mana producing non-land permanant) + Mox Amber is also a kill with the loop of:
+Amber
+Tap Amber + (mana producing non-land permanant) for 2
+Sac Amber + Thopter to Sai spending 2
+to draw into a second amber and kill as usual.
+
+Killing without an Emry isn't much harder but does require more moving parts. The basic setup needed is Engine + Inspiring Statuary + Fae of Wishes + (mana producing non-land permanant) + (non-summoner sick creature) and the combo is:
+Granted -> Retraction Helix
+Retraction Helix -> (non-summoner sick creature)
+Fae of Wishes
+Retract -> Fae of Wishes
+Granted -> Tormod's Crypt
+Fae of Wishes
+Repeat for infinite mana:
+	Tormod's Crypt
+	Retract -> Crypt
+Retract -> Fae of Wishes
+Granted -> Aetherflux Resevoir
+Aetherflux Resevoir
+Fae of Wishes
+50 your opponent
+There are many different ways to produce the mana for this chain with or without inspiring statuary but this is the most common/simple setup.
+
+Filling the Flex slots:
+0-3 Additional Threats
+Possible cards for this slot:
+*Paradoxical Outcome
+	PO is interesting in this deck. It seems like an obvious fit thanks to the 8 zero mana artifacts, 4 Springleaf Drums (psudo zero mana), and synergy with inspiring statuary but I haven't been overly impressed with its actual maindeck efficacy. The one in the sideboard is awesome since bouncing the Fae that Granted for it is very powerful and you can find it only when it's needed. I found PO in the maindeck often set up for a kill 2 turns later which brings me to the next card.
+*The Antiquities War
+	TAW is a suspend 2 deal 20 most of the time. This is great against Control but tends to be too slow vs Aggro and Combo. Since it requires less crital mass than PO it's my pick as a sideboard card vs Control/Midrange. The floor on TAW is higher than PO and I think it's respectable in the maindeck depending on the meta.
+*3rd Saheeli
+	In my testing I've found 4 Sai or Saheeli is too much, 3 is a safer amount. I've also found 5 total to be a good a number which lead me to the 3/2 split. Sai gets the nod in my 3/2 split because he's slightly harder to kill for decks with creatures in them, makes flyers, and taps in conjunction with Springleaf Drum. I think a 3/3 split is also fine and I would be interested in testing that configuration further.
+*Walking Ballista
+	Currently I believe aggro very good, although that may change following the copter ban, until it does I'll be running 2 Ballista in the main. It does everything you want against aggro, represents a big threat vs control, and speeds up your goldfish vs non-interactive combo decks. The only downside of Ballista is that it's much less impressive without Emry in play and if you untap with Emry it's generally pretty easy to win anyway.
+*Mystic Forge
+	Forge isn't great in this deck since the it's less than 50% artifacts. It obviously improves substantially with an Engine in play and life to work with. The role it fills is that if you're playing Whir of Invnetion (A card I don't like much) or Inventors' Fair it's a tutorable threat.
+
+2-4 Accelerants
+If there was a non-creature artifact that cost and 2, tapped for 1, and wasn't stone unplayable (@ Corrupted Grafstone) in pioneer I would slam 4 of those and never look back. Unfortunately there isn't so we have to get creative.
+Possible cards for this slot:
+*Hedron Crawler
+	A walking guardian idol. It can't tap the turn you play it but it can block. I haven't tested with it very much because I think it's just slightly too low power-level. It dying to shocks isn't a huge deal since your deck already plays Emry with hopes of untapping her.
+*Renowned Weaponsmith
+	Better body and mana-production than Crawler but heavily restricted. I'm currently playing Weaponsmith because it its ability to cast Engine or Statuary + Sai/Saheeli on turn 3. Weaponsmith -> Engine -> Statuary + Fae is a T4 kill on it's own (assuming you don't miss any land drops) which, for me, is enough to give Weaponsmith the nod over any of the other Accelerant options.
+*Chief Engineer
+	I thought Engineer would be nuts, it wasn't, it's a strictly worse Weaponsmith 90% of the time. Just don't play it.
+*Powerstone Shard
+	I think there's another version of this deck out there with 4 Powerstone Shard, 4 Saheeli, and 4 Metalwork Colossus. For this deck making 100 mana isn't functionally different from making 8 and you're already glutted on 3's so I can't endorse Powerstone shard either.
+
+3-4 Witching Wells
+Postboard I believe the correct number Witching Wells is often 2/3 so playing 4 preboard isn't necessary. Well is much better with Weaponsmith because Weaponsmith's mana can be used to crack it. In general 4 Well should be the default unless you really want 4 accelerants and 2 extra threats from the above lists.
+
+Building a Sideboard:
+The 5 card wishboard is set:
+1 Paradoxical Outcome
+1 Tormod's Crypt
+1 Paradox Engine
+1 Aetherflux Resvoir
+1 Retraction Helix
+which leaves 10 cards in the actual sideboard
+I will occasionally board in the 4th Engine in matchups where increasing T4 kill% is worth decreasing T5 kill%. This is true for any deck the goldfishes T4s of their own consistantly. The sideboard also has a ton of different options because the manabase can easily support a 2nd colour. I'll discuss cards of various colour but I think in general 2 colours is decently free while 3 colours comes at a significant cost.
+Cards for Aggro
+Aggro decks looking to attack with blockable creatures should be an easy matchup. The problem with fighting the aggro decks are a short list of specific creatures which are difficult to interact with. Legion Loyalist + Goblin Piledriver, Gingerbrute + (Ensoul, All that Glitters, etc.), Thing in the Ice, and every threat from UG Aggro (Steel Leaf Champion, Questing Beast, Oko, Ghalta) so any anti-aggro card in the board has to interact favourably with some of all of these. Against aggro I'm happy going down to 2 Witching Well, shaving any additional threats (apart from Ballista), and cutting up to 2 Inspiring Statuaries because holding Fae to combo with it is usually worse than casting a 1/4 blocker. This means a total of 3-7 cards are needed for aggro.
+*Targetted Bounce Spells
+	There are ~6 reasonable bounce spells you can play. They're all 2 mana, bounce any non-land, and come with a marginal upside. I've tested Blink of an Eye and Cyclonic Rift and neither was very good. We're just not quite fast enough to capitalize on the one turn window in the way ANT can.
+*Mass Bounce Spells
+	Engulf the Shore and Aetherize are both good options for mono blue. I will be testing Aetherize next because it allows me to play more non-island utility lands. They do a good job of answering a board of goblins especially because Rabblemaster forces them all to attack.
+*Targetted Removal
+	Fatal Push, Battle at the Bridge, Glass Casket, and Fiery Impulse all fall into this catagory. I've played a lot with the black spells and I still struggled with the problem cards listed above. Turning on revolt is not trivially easy and sorcery speed on Battle at the Bridge is a significant downside. Specifically they both fail to answer Questing Beast cleanly.
+*Metallic Rebuke
+	Spending 1 Mana to answer a 2, 3, or 4 mana threat is good. It's easier to cast and turn on than Fatal Push and puts in work against combo as well. Rebuke is bassically blank vs Mono Green Ramp which is a strick against it.
+*Ratchet Bomb
+	Is very good with Emry, the deck plays few 1s and even less 2s meaning that bomb can continuely be cracked on those numbers to stymie aggression. Answering Questing beast is much more difficult especially in the face of Oko so I can't recommend playing more than 1 right now.
+*Walking Ballista
+	Is one of the best cards for dealing with Goblins and the Ensoul deck. I believe 2 total between the main and board is good amount.
+*Ghirapur Aether Grid
+	Would be amazing vs aggro decks. I haven't tested it yet since I don't think red adds anything against control or combo.
+Cards for Combo
+Pioneer combo currently consists of Kethis Ascendancy and various Nexus of Fate decks. Against these decks going down to 2/3 Wells is good since the games will be short. Sai is worse than Saheeli at accelerating your combo turn so I like boarding out all the Sais giving you 4-5. Boarding out any slow threats such as PO or TAW is also good. So you need 4-7 cards for these matchups depending on maindeck choices.
+*Thoughtseize
+	Has long been an anti-combo staple. It's good, but doesn't interact favourably with anything else in the deck and drawing it tends to slow down your own combo turn.
+*Hope of Ghirapur
+	Looping HoG is trick straight out of Kethis' playbook but it works just as well with Emry. Kethis and Nexus both need pretty specific answers to HoG/Emry and overloading those answers is definitely a viable stratagy.
+*Unmoored Ego
+	Adding 1 Ego to the board has a high impact because it can be wished for in game 1. It was better when field was legal as an answer to those decks as well. I don't think it's good enough unless Kethis becomes more popular.
+*Metallic Rebuke
+	Countering a Jeskai Ascendancy/Wilderness Reclamating is a big tempo swing. It has the same issue as Thoughtseize in slowing down your own combo kill but it's easier to cast and has more applications in other matchups as discussed above.
+*Pithing Needle
+	Can answer Kethis. It also answers Oko which is one of the more annoying cards out of some of the midrange decks.
+Cards for Control
+Against control I like boarding out my ornithopters because they're very low impact. This slows down your combo kill but that's OK when they aren't pressuring you quickly. This means you'll be looking for 4 cards against control. Maybe only 3 is none of them are creatures to avoid going too low on cards which turn on Springleaf Drum.
+*The Antiquities War
+	If you want dedicated cards against control this is the best one. It's a threat, it's a divination, it's not an artifact so it dodges hate (especially Oko)
+*Hope of Ghirapur/Thoughtseize
+	I'm happy with ~2 of these anti-combo cards postboard vs control. HoG is a small upgrade over ornithopter and looping it can be a problem for planeswalker-based control decks. Thoughtseize is better if your opponent is leaning on a payoff to pull together their control deck (Sphinx's Revelation for example)
+*Padeem, Consul of Innovation
+	Good vs non-blue control. Non-blue control sucks so far. Until that isn't true I think Padeem is bad.
+*Draw Spells (More POs, Reverse Engineer, Dig Through Time)
+	The only problem with this plan is how low your average card quality is. Often at least 40 cards in your deck are just mana which you don't want so drawing cards is worse than just drawing a threat.
+*Planewalkers (Oko, T3fari, others)
+	I haven't expirimented much with these options. Obviously Oko is a busted card and busted threats are good vs control. Cl1ffy81 has expirimented with T3fari a fair amount and I think it's a good choice for further testing as well
+
+Putting it all Together:
+Maindeck
+4 Mox Amber
+4 Emry, Lurker of the Loch
+4 Ornithopter
+4 Springleaf Drum
+4 Fae of Wishes
+4 Inspiring Statuary
+3 Paradox Engine
+3 Sai, Master Thopterist
+2 Saheeli, Sublime Artificer
+3 Witching Wells
+Are all locked in leaving room for an additional 6 spells and 19 lands. Currently my favourite accelerant is Renowned Weaponsmith, I don't like playing the 4th Witching Well, and I want 2 Ballistas in the main. That just leaves me to decide between the 4th Weaponsmith and another Additional threat. Right now I think Weaponsmit gets the nod because the format is quite fast, if it slowed down I would play 3 Weaponsmit and 1 PO, TAW, or Mystic Forge.
+
+Sideboard
+1 Paradoxical Outcome
+1 Tormod's Crypt
+1 Paradox Engine
+1 Aetherflux Resvoir
+1 Retraction Helix
+After this wishboard another 10 slots remain. With this maindeck setup discussed above: 3 cards for aggro (5 for pheonix and scales ideally, because Ballista isn't as good vs them), 4 for control (ideally 1 a creature), and 4 for combo. For a total of 11 cards, 1 has to overlap somewhere. With 2 of the anti-combo/control cards being playable vs pheonix and scales. Here are some example sideboards:
+
+Monoblue
+3 Aetherize
+3 The Antiquities War
+4 Hope of Ghirapur
+
+~Aggro
+ -1 Witching Well, -2 Inspiring Statuary
+ +3 Aetherize
+~Simic Stompy
+ -2 Saheeli, Sublime Artificer, -1 Witching Well
+ +3 Aetherize
+~Pheonix
+ -2 Walking Ballista, -1 Witching Well, -2 Inspiring Statuary
+ +3 Aetherize, +2 Hope of Ghirapur
+~Control
+ -4 Ornithopter
+ +3 The Antiquities War, +1 Hope of Ghirapur
+~Combo
+ -3 Sai, Master Thopterist, -1 Witching Well
+ +4 Hope of Ghirapur
+
+Dimir
+3 Fatal Push
+1 Battle at the Bridge
+2 The Antiquities War
+2 Thoughtseize
+2 Hope of Ghirapur
+
+~Aggro (This list has an extra card in vs aggro to offset the painful manabase)
+ -2 Witching Well, -2 Inspiring Statuary
+ +3 Fatal Push, +1 Battle at the Bridge
+~Simic Stompy
+ -2 Saheeli, Sublime Artificer, -1 Witching Well
+ +3 Fatal Push
+~Pheonix
+ -2 Walking Ballista, -1 Witching Well, -2 Inspiring Statuary
+ +3 Fatal Push, +2 Hope of Ghirapur
+~Control
+ -4 Ornithopter
+ +2 The Antiquities War, +2 Thoughtseize/Hope of Ghirapur (Depending on style of deck)
+~Combo
+ -3 Sai, Master Thopterist, -1 Witching Well
+ +2 Hope of Ghirapur, +2 Thoughtseize
+
+Choosing exactly which 19 Lands to play obviously depends on splash colour with the criteria of 14 untapped blue sources to supper Witching Well and 13 off colour sources (including Springleaf Drum) to play splashed cards on T2. 3 Darksteel Citadel has felt like the sweet spot for Emry; however the ally coloured Ux list only has room for 2 while having enough T1 U sources (not counting check lands or and counting Spires as 0.5)
+For monoblue this looks like:
+14 Island
+3 Darksteel Citadel
+2 Inventors' Fair
+
+For Ux (Ally) this looks like:
+4 Shock lands
+2 Check lands
+2 Darksteel Citadel
+3 Spire of Industry
+9 Island
+
+For Ux (Enemy) this looks like:
+4 Shock lands
+4 Fast lands
+3 Darksteel Citadel
+3 Spire of Industry
+5 Island
+
+While I have put a lot of time and thought into this list I've recently been stuggling to win with it. I top4'd a local 1k with a worse version of the deck but since then I haven't been winning at all in any format with any deck. Maybe all my decks suck, maybe I'm washed, maybe it's bad variance. Regardless, take all my opinions with more than a grain of salt. More than happy to answer questions and take feedback on this primer.
